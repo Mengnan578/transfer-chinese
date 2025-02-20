@@ -34,6 +34,14 @@ msgstr "+添加新业务伙伴"
 msgid "+ Add new tag"
 msgstr "+添加新标签"
 
+#: src/features/issuing/issuing-finance/account/add-global-account.tsx:154
+msgid "A multi-currency account receives funds globally"
+msgstr "多币种账户接收全球资金"
+
+#: src/features/issuing/issuing-finance/account/add-global-account.tsx:159
+msgid "A single currency account receives funds locally"
+msgstr "单币种账户接收本地资金"
+
 #: src/app/(dashboard)/issuing/(reconciliation)/reconciliation-batch/page.tsx:72
 msgid "Abnormal transactions"
 msgstr "异常交易"
@@ -43,7 +51,7 @@ msgid "Accepted time"
 msgstr "接受时间"
 
 #: src/app/(dashboard)/risk/(access)/page.tsx:212
-#: src/components/layout/sidebar-nav.tsx:312
+#: src/components/layout/sidebar-nav.tsx:325
 msgid "Access configuration"
 msgstr "访问配置"
 
@@ -103,7 +111,6 @@ msgstr "必填项"
 
 #: src/app/(dashboard)/banking/(Account)/account/page.tsx:552
 #: src/app/(dashboard)/banking/(Banking-finance)/reports/page.tsx:79
-#: src/app/(dashboard)/banking/(Risk-control)/approval-workflow/page.tsx:138
 #: src/app/(dashboard)/banking/adjustment/page.tsx:40
 #: src/app/(dashboard)/banking/refund/page.tsx:38
 #: src/app/(dashboard)/issuing/(account)/account/page.tsx:250
@@ -121,7 +128,7 @@ msgid "Account balance"
 msgstr "账户余额"
 
 #: src/app/(dashboard)/banking/(Account)/account/page.tsx:65
-#: src/features/issuing/issuing-finance/account/account-bank-modal.tsx:154
+#: src/features/issuing/issuing-finance/account/account-bank-modal.tsx:155
 #: src/features/issuing/issuing-finance/account/data-table-row-actions.tsx:57
 msgid "Account bank"
 msgstr "开户银行"
@@ -134,7 +141,7 @@ msgstr "开户银行ID"
 msgid "Account configuration"
 msgstr "账户配置"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:726
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:739
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:895
 msgid "Account currency"
 msgstr "账户币种"
@@ -148,15 +155,15 @@ msgstr "账户电子邮件"
 msgid "Account Email"
 msgstr "账户电子邮件"
 
-#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:97
+#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:110
 msgid "Account funding source"
 msgstr "账户资金来源"
 
-#: src/features/issuing/issuing-finance/account/account-bank-modal.tsx:25
+#: src/features/issuing/issuing-finance/account/account-bank-modal.tsx:26
 msgid "Account Holder"
 msgstr "账户持有人"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:761
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:774
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:937
 msgid "Account holder name"
 msgstr "账户持有人姓名"
@@ -187,8 +194,8 @@ msgstr "帐户Id"
 #: src/app/(dashboard)/banking/(Payout)/beneficiary/page.tsx:407
 #: src/app/(dashboard)/banking/(Payout)/payout-limit/page.tsx:72
 #: src/app/(dashboard)/banking/(Payout)/payout-limit/page.tsx:86
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:196
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:329
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:217
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:351
 #: src/app/(dashboard)/banking/(Risk-control)/compliance-review/page.tsx:270
 #: src/app/(dashboard)/banking/adjustment/page.tsx:81
 #: src/app/(dashboard)/banking/adjustment/page.tsx:226
@@ -200,7 +207,7 @@ msgstr "帐户Id"
 #: src/app/(dashboard)/banking/transfer/page.tsx:37
 #: src/app/(dashboard)/banking/transfer/page.tsx:173
 #: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:29
-#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:205
+#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:221
 #: src/app/(dashboard)/issuing/(card-management)/physical-card-number/page.tsx:55
 #: src/app/(dashboard)/issuing/(card-management)/physical-card-number/page.tsx:250
 #: src/app/(dashboard)/issuing/(issuing-finance)/deposit/page.tsx:47
@@ -242,12 +249,12 @@ msgstr "帐户Id"
 #: src/features/issuing/issuing-finance/account/create-adjuest-modal.tsx:148
 #: src/features/issuing/issuing-finance/deposit/deposit-info-modal.tsx:168
 #: src/features/issuing/issuing-finance/refund/info-finance-transactions-modal.tsx:44
-#: src/features/issuing/issuing-finance/reports/generate-reports-modal.tsx:626
+#: src/features/issuing/issuing-finance/reports/generate-reports-modal.tsx:630
 #: src/features/issuing/issuing-finance/transfer/info-transfer-modal.tsx:62
 #: src/features/issuing/new-card-center/card-holder/data-table-toolbar.tsx:87
 #: src/features/issuing/new-card-center/card-ledger/data-table-columns.tsx:22
 #: src/features/issuing/new-card-center/card-ledger/data-table-toolbar.tsx:162
-#: src/features/issuing/new-card-center/card/data-table-columns.tsx:47
+#: src/features/issuing/new-card-center/card/data-table-columns.tsx:59
 #: src/features/issuing/new-card-center/card/data-table-toolbar.tsx:127
 #: src/features/issuing/new-card-center/card/data-table-toolbar.tsx:130
 #: src/features/issuing/new-card-center/card/update-card-modal.tsx:160
@@ -293,7 +300,7 @@ msgstr "帐户是必需的"
 #: src/app/(dashboard)/banking/(Payout)/beneficiary/page.tsx:183
 #: src/app/(dashboard)/banking/(Payout)/payout-limit/page.tsx:78
 #: src/app/(dashboard)/banking/(Payout)/payout-limit/page.tsx:99
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:202
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:223
 #: src/app/(dashboard)/banking/adjustment/page.tsx:231
 #: src/app/(dashboard)/banking/dashboard/page.tsx:47
 #: src/app/(dashboard)/banking/deposit/page.tsx:57
@@ -350,7 +357,7 @@ msgstr "帐户是必需的"
 #: src/features/issuing/new-card-center/card-ledger/data-table-toolbar.tsx:173
 #: src/features/issuing/new-card-center/card-ledger/info-card-ledger-modal.tsx:114
 #: src/features/issuing/new-card-center/card-order/info-card-order-modal.tsx:69
-#: src/features/issuing/new-card-center/card/data-table-columns.tsx:55
+#: src/features/issuing/new-card-center/card/data-table-columns.tsx:67
 #: src/features/issuing/new-card-center/card/data-table-toolbar.tsx:139
 #: src/features/issuing/new-card-center/card/info-card-modal.tsx:186
 #: src/features/issuing/new-card-center/finance-transactions/info-finance-transactions-modal.tsx:57
@@ -380,12 +387,12 @@ msgstr "账户名称"
 #: src/app/(dashboard)/banking/(Payout)/beneficiary/page.tsx:265
 #: src/app/(dashboard)/banking/(Payout)/beneficiary/page.tsx:417
 #: src/features/banking/payout/beneficiary/detailInfo.tsx:242
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:768
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:781
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:946
 msgid "Account number"
 msgstr "账号"
 
-#: src/features/issuing/issuing-finance/account/account-bank-modal.tsx:47
+#: src/features/issuing/issuing-finance/account/account-bank-modal.tsx:48
 #: src/features/issuing/issuing-finance/account/bank-info-modal.tsx:115
 msgid "Account Number"
 msgstr "账号"
@@ -410,7 +417,7 @@ msgstr "账号/IBAN"
 msgid "Account Number/iban"
 msgstr "账号/iban"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:487
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:500
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:650
 #: src/features/onboarding/customer/customer-review/components/kyb-business-detail.tsx:641
 msgid "Account purpose"
@@ -434,7 +441,7 @@ msgid "Account setup"
 msgstr "账户设置"
 
 #: src/app/(dashboard)/issuing/(statistics)/account-statistics/page.tsx:362
-#: src/components/layout/sidebar-nav.tsx:297
+#: src/components/layout/sidebar-nav.tsx:310
 msgid "Account statistics"
 msgstr "账户统计"
 
@@ -454,6 +461,7 @@ msgstr "账户状态"
 #: src/features/banking/account/details-review-modal.tsx:348
 #: src/features/banking/risk-control/workflow/account-components/final-review.tsx:372
 #: src/features/banking/risk-control/workflow/workflow-components/email-detail.tsx:34
+#: src/features/issuing/issuing-finance/account/add-global-account.tsx:147
 msgid "Account type"
 msgstr "账户类型"
 
@@ -466,12 +474,14 @@ msgstr "收购（AC）"
 msgid "action"
 msgstr "操作"
 
-#: src/app/(dashboard)/administration/(exchange-rate)/live-exchange-rate/page.tsx:131
+#: src/app/(dashboard)/administration/(exchange-rate)/live-exchange-rate/page.tsx:143
 #: src/app/(dashboard)/administration/(financial-codes)/country-code/page.tsx:157
 #: src/app/(dashboard)/administration/(financial-codes)/currency-code/page.tsx:115
 #: src/app/(dashboard)/administration/(financial-codes)/currency-pair/page.tsx:103
 #: src/app/(dashboard)/administration/dictionary-config/page.tsx:145
 #: src/app/(dashboard)/administration/email-notify/page.tsx:152
+#: src/app/(dashboard)/administration/job-log/page.tsx:157
+#: src/app/(dashboard)/administration/job-task/page.tsx:292
 #: src/app/(dashboard)/administration/manage-invoice/page.tsx:120
 #: src/app/(dashboard)/administration/manage-memeber/page.tsx:190
 #: src/app/(dashboard)/administration/message-queue/page.tsx:150
@@ -488,7 +498,7 @@ msgstr "操作"
 #: src/app/(dashboard)/banking/(Payout)/payer/page.tsx:315
 #: src/app/(dashboard)/banking/(Payout)/payment-method/page.tsx:192
 #: src/app/(dashboard)/banking/(Payout)/payout-limit/page.tsx:188
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:504
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:537
 #: src/app/(dashboard)/banking/(Risk-control)/compliance-review/page.tsx:212
 #: src/app/(dashboard)/banking/adjustment/page.tsx:189
 #: src/app/(dashboard)/banking/deposit/page.tsx:204
@@ -530,8 +540,8 @@ msgstr "操作"
 #: src/features/administration/financial-codes/industry-mcc/data-table-columns.tsx:162
 #: src/features/banking/account/ProductConfigurationContent.tsx:190
 #: src/features/issuing/issuing-finance/account/account-balance-modal .tsx:44
-#: src/features/issuing/issuing-finance/account/account-bank-modal.tsx:140
-#: src/features/issuing/new-card-center/card/data-table-columns.tsx:176
+#: src/features/issuing/issuing-finance/account/account-bank-modal.tsx:141
+#: src/features/issuing/new-card-center/card/data-table-columns.tsx:188
 #: src/features/onboarding/customer/customer-review/components/agreements.tsx:53
 #: src/features/onboarding/customer/customer-review/components/aml-screening.tsx:104
 #: src/features/onboarding/customer/customer-user/user-main-modal.tsx:81
@@ -546,7 +556,6 @@ msgid "Actions"
 msgstr "操作"
 
 #: src/app/(dashboard)/administration/notification-templates/page.tsx:187
-#: src/app/(dashboard)/banking/(Account)/related-channels/page.tsx:278
 #: src/app/(dashboard)/onboarding/(customer)/document/page.tsx:60
 #: src/features/administration/manage-invoice/create-manage-invoice.tsx:520
 #: src/features/banking/account/related-channels/related-channel-info-modal.tsx:83
@@ -673,7 +682,7 @@ msgstr "其他付款文件"
 #: src/features/banking/deposit/create-deposit-modal.tsx:371
 #: src/features/banking/deposit/deposit-info-modal.tsx:351
 #: src/features/banking/payout/beneficiary/detailInfo.tsx:180
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:475
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:488
 #: src/features/banking/risk-control/workflow/account-components/final-review.tsx:445
 #: src/features/banking/risk-control/workflow/workflow-components/aml-modal.tsx:393
 #: src/features/banking/risk-control/workflow/workflow-components/aml-modal.tsx:443
@@ -803,7 +812,7 @@ msgstr "管理员状态"
 msgid "Admin Status"
 msgstr "管理状态"
 
-#: src/components/layout/sidebar-nav.tsx:343
+#: src/components/layout/sidebar-nav.tsx:356
 #: src/components/layout/topbar-nav.tsx:62
 msgid "Administration"
 msgstr "管理"
@@ -929,8 +938,8 @@ msgstr "AML/PEP筛查"
 #: src/features/banking/deposit/deposit-info-modal.tsx:333
 #: src/features/banking/payout/beneficiary/detailInfo.tsx:126
 #: src/features/banking/payout/payer/payoutModal.tsx:51
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:518
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:671
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:531
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:684
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:751
 #: src/features/issuing/issuing-finance/deposit/deposit-info-modal.tsx:250
 msgid "AML approved"
@@ -966,20 +975,20 @@ msgstr "AML检查sumsub id"
 #: src/features/banking/banking-finance/transaction/transaction-detail-modal.tsx:290
 #: src/features/banking/deposit/deposit-info-modal.tsx:334
 #: src/features/banking/payout/beneficiary/detailInfo.tsx:127
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:519
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:672
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:532
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:685
 msgid "AML disapproved"
-msgstr "AML未审核通过"
+msgstr "反洗钱未审核通过"
 
 #: src/features/banking/payout/payer/payoutModal.tsx:52
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:752
 #: src/features/issuing/issuing-finance/deposit/deposit-info-modal.tsx:251
 msgid "AML Disapproved"
-msgstr "AML未审核通过"
+msgstr "反洗钱未审核通过"
 
 #: src/features/onboarding/customer/customer-review/customer-review-modal.tsx:136
 msgid "AML screening"
-msgstr "AML筛查"
+msgstr "反洗钱筛查"
 
 #: src/features/banking/payout/payer/payerInfoModal.tsx:303
 msgid "AML screening check"
@@ -989,8 +998,8 @@ msgstr "反洗钱筛查检查"
 #: src/features/banking/deposit/deposit-info-modal.tsx:380
 #: src/features/banking/payout/beneficiary/detailInfo.tsx:366
 #: src/features/banking/payout/payer/senderInfo.tsx:80
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:565
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:713
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:578
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:726
 #: src/features/banking/risk-control/workflow/workflow-components/deposit-detail.tsx:328
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:698
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:881
@@ -999,8 +1008,8 @@ msgid "AML SCREENING CHECK"
 msgstr "反洗钱筛查"
 
 #: src/app/(dashboard)/banking/(Banking-finance)/transactions/page.tsx:133
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:297
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:409
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:318
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:431
 #: src/app/(dashboard)/banking/(Risk-control)/compliance-review/page.tsx:167
 #: src/app/(dashboard)/banking/adjustment/page.tsx:122
 #: src/app/(dashboard)/banking/deposit/page.tsx:71
@@ -1022,8 +1031,8 @@ msgstr "反洗钱筛查"
 #: src/features/banking/invoice/review-invoice.tsx:251
 #: src/features/banking/invoice/workflow-detail.tsx:152
 #: src/features/banking/payout/payout/payoutComplianceModal.tsx:185
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:302
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:849
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:315
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:862
 #: src/features/banking/payout/payout/payoutRefundModal.tsx:149
 #: src/features/banking/risk-control/workflow/workflow-components/deposit-detail.tsx:177
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:441
@@ -1079,7 +1088,7 @@ msgstr "答案"
 
 #: src/features/onboarding/customer/customer-review/components/kyb-business-detail.tsx:746
 #: src/features/onboarding/customer/customer-review/components/kyc-address.tsx:251
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:541
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:589
 #: src/features/onboarding/customer/customer-review/components/kyc-ownership-detail.tsx:658
 msgid "Apartment, suite, or floor (optional)"
 msgstr "公寓、套房或楼层（可选）"
@@ -1114,7 +1123,7 @@ msgstr "Api版本"
 msgid "Applicant"
 msgstr "申请人"
 
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:224
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:245
 #: src/features/banking/banking-finance/transaction/deepositApprovalModal.tsx:146
 #: src/features/banking/deposit/approval-modal.tsx:87
 #: src/features/banking/deposit/approval-modal.tsx:126
@@ -1148,7 +1157,7 @@ msgstr "审批工作流程"
 #: src/features/banking/account/related-channels/related-channel-info-modal.tsx:353
 #: src/features/banking/invoice/review-invoice.tsx:365
 #: src/features/banking/payout/payer/uploadStatus.tsx:152
-#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:280
+#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:311
 #: src/features/banking/risk-control/workflow/workflow-approve-drawer.tsx:345
 #: src/features/banking/risk-control/workflow/workflow-approve-drawer.tsx:366
 #: src/features/banking/risk-control/workflow/workflow-approve-drawer.tsx:393
@@ -1172,7 +1181,7 @@ msgstr "审核通过"
 msgid "Are you ready to start the KYC review for this customer ?"
 msgstr "您准备好开始对该客户进行KYC审核了吗？"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:1271
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:1298
 msgid "Are you sure about the resubmission channel??"
 msgstr "您确定重新提交渠道吗？？"
 
@@ -1291,7 +1300,7 @@ msgstr "Asc"
 #: src/features/issuing/card-management/card-bin/assign-card-bin-modal.tsx:372
 #: src/features/issuing/card-management/card-bin/assign-card-bin-modal.tsx:377
 msgid "Assign card bin"
-msgstr "分配卡片箱"
+msgstr "分配卡头"
 
 #: src/features/banking/risk-control/workflow/account-components/assign-product.tsx:787
 msgid "Assign product & fee"
@@ -1392,8 +1401,8 @@ msgid "Audit status is required"
 msgstr "必须填写审核状态"
 
 #: src/app/(dashboard)/issuing/(reconciliation)/supplement/page.tsx:287
-#: src/features/issuing/reconciliation/supplement/create-supplement-modal.tsx:600
-#: src/features/issuing/reconciliation/supplement/edit-supplement-modal.tsx:585
+#: src/features/issuing/reconciliation/supplement/create-supplement-modal.tsx:601
+#: src/features/issuing/reconciliation/supplement/edit-supplement-modal.tsx:586
 msgid "Auth amount"
 msgstr "授权金额"
 
@@ -1405,8 +1414,8 @@ msgstr "需要授权金额"
 #: src/app/(dashboard)/issuing/(reconciliation)/settlement-reconciliation/page.tsx:196
 #: src/app/(dashboard)/issuing/(reconciliation)/settlement-reconciliation/page.tsx:377
 #: src/app/(dashboard)/issuing/(reconciliation)/supplement/page.tsx:123
-#: src/features/issuing/reconciliation/supplement/create-supplement-modal.tsx:451
-#: src/features/issuing/reconciliation/supplement/edit-supplement-modal.tsx:437
+#: src/features/issuing/reconciliation/supplement/create-supplement-modal.tsx:452
+#: src/features/issuing/reconciliation/supplement/edit-supplement-modal.tsx:438
 msgid "Auth code"
 msgstr "验证码"
 
@@ -1419,8 +1428,8 @@ msgstr "授权码"
 msgid "Auth code is required"
 msgstr "需要验证码"
 
-#: src/features/issuing/reconciliation/supplement/create-supplement-modal.tsx:618
-#: src/features/issuing/reconciliation/supplement/edit-supplement-modal.tsx:603
+#: src/features/issuing/reconciliation/supplement/create-supplement-modal.tsx:619
+#: src/features/issuing/reconciliation/supplement/edit-supplement-modal.tsx:604
 msgid "Auth currency"
 msgstr "验证币种"
 
@@ -1507,7 +1516,7 @@ msgstr "自动结算"
 msgid "Available"
 msgstr "可用"
 
-#: src/features/issuing/new-card-center/card/data-table-columns.tsx:100
+#: src/features/issuing/new-card-center/card/data-table-columns.tsx:112
 #: src/features/issuing/new-card-center/card/info-card-modal.tsx:203
 msgid "Available amount"
 msgstr "可用金额"
@@ -1526,9 +1535,7 @@ msgid ""
 "Awaiting review for AML screening to ensure compliance with anti-money "
 "laundering regulations and mitigate\n"
 "financial risks."
-msgstr ""
-"等待反洗钱筛查审核，以确保遵守反洗钱法规并减轻\n"
-"金融风险。"
+msgstr "等待反洗钱筛查审查，以确保遵守反洗钱法规并减轻金融风险。"
 
 #: src/app/(dashboard)/risk/(access)/new-access-point-table/event-storage-configuration.tsx:295
 #: src/app/(dashboard)/risk/(access)/new-access-point-table/field-configuration.tsx:284
@@ -1588,7 +1595,7 @@ msgid "Bank account holder name"
 msgstr "银行账户持有人姓名"
 
 #: src/features/banking/payout/beneficiary/detailInfo.tsx:256
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:789
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:802
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:970
 msgid "Bank address"
 msgstr "银行地址"
@@ -1601,12 +1608,12 @@ msgstr "银行地址"
 msgid "Bank balance snapshot"
 msgstr "银行余额快照"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:740
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:753
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:912
 msgid "Bank city"
 msgstr "银行所在城市"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:733
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:746
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:904
 msgid "Bank country"
 msgstr "银行所在国家"
@@ -1616,7 +1623,7 @@ msgid "Bank Detail"
 msgstr "银行详细信息"
 
 #: src/features/banking/payout/beneficiary/detailInfo.tsx:249
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:782
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:795
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:962
 msgid "Bank name"
 msgstr "银行名称"
@@ -1625,12 +1632,12 @@ msgstr "银行名称"
 msgid "Bank Name"
 msgstr "银行名称"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:754
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:767
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:929
 msgid "Bank postal code"
 msgstr "银行邮政编码"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:747
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:760
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:920
 msgid "Bank state/province"
 msgstr "银行所在州/省"
@@ -1764,10 +1771,10 @@ msgstr "绑定路由"
 
 #: src/features/banking/account/related-channels/data-table-row-actions.tsx:91
 msgid "Binding"
-msgstr "结合"
+msgstr "绑定"
 
 #: src/app/(dashboard)/risk/(global-parameters)/blacklist-management/page.tsx:162
-#: src/components/layout/sidebar-nav.tsx:334
+#: src/components/layout/sidebar-nav.tsx:347
 msgid "Blacklist management"
 msgstr "黑名单管理"
 
@@ -1790,8 +1797,8 @@ msgid "Blacklist value"
 msgstr "黑名单值"
 
 #: src/app/(dashboard)/banking/(Payout)/payer/page.tsx:157
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:509
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:662
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:522
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:675
 msgid "Blacklists"
 msgstr "黑名单"
 
@@ -1843,7 +1850,7 @@ msgstr "买了"
 msgid "Buffer time"
 msgstr "缓冲时间"
 
-#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:397
+#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:399
 msgid "Bulk"
 msgstr "散装"
 
@@ -1888,7 +1895,7 @@ msgstr "业务编码是必需的"
 #: src/app/(dashboard)/risk/(access)/new-access-point-table/page.tsx:185
 #: src/app/(dashboard)/risk/(global-parameters)/business-configuration/page.tsx:61
 #: src/app/(dashboard)/risk/(global-parameters)/cep-engine/page.tsx:91
-#: src/components/layout/sidebar-nav.tsx:333
+#: src/components/layout/sidebar-nav.tsx:346
 msgid "Business configuration"
 msgstr "业务配置"
 
@@ -1937,7 +1944,7 @@ msgstr "业务伙伴"
 #: src/features/banking/account/related-channels/view-nium-binding-modal-step3.tsx:290
 #: src/features/banking/account/related-channels/view-nium-binding-modal.tsx:845
 #: src/features/banking/payout/beneficiary/detailInfo.tsx:147
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:607
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:620
 msgid "Business registration number"
 msgstr "经营注册号"
 
@@ -1988,7 +1995,7 @@ msgid "Bussiness app is required"
 msgstr "业务类型是必须的"
 
 #: src/app/(dashboard)/administration/(exchange-rate)/exchange-rate-history/page.tsx:31
-#: src/app/(dashboard)/administration/(exchange-rate)/live-exchange-rate/page.tsx:60
+#: src/app/(dashboard)/administration/(exchange-rate)/live-exchange-rate/page.tsx:72
 #: src/app/(dashboard)/banking/(Conversion)/channel/page.tsx:132
 #: src/app/(dashboard)/banking/(Conversion)/merchant/page.tsx:129
 #: src/features/banking/conversion/channel/add-conversion-modal.tsx:329
@@ -2002,16 +2009,16 @@ msgid "Buy"
 msgstr "购买"
 
 #: src/features/banking/conversion/channel/channel-info-modal.tsx:295
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:952
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:1019
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:956
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:1023
 msgid "Buy amount"
 msgstr "购买金额"
 
 #: src/app/(dashboard)/administration/(exchange-rate)/exchange-rate-history/page.tsx:133
-#: src/app/(dashboard)/administration/(exchange-rate)/live-exchange-rate/page.tsx:147
+#: src/app/(dashboard)/administration/(exchange-rate)/live-exchange-rate/page.tsx:159
 #: src/features/banking/conversion/channel/channel-info-modal.tsx:288
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:948
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:1015
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:952
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:1019
 msgid "Buy currency"
 msgstr "购买币种"
 
@@ -2069,6 +2076,7 @@ msgstr "只能包含数字、字母、下划线或破折号"
 #: src/features/administration/financial-codes/currency-pair/add-currency-pair-modal.tsx:287
 #: src/features/administration/financial-codes/currency-pair/edit-currency-pair-modal.tsx:318
 #: src/features/administration/internal/resend-modal.tsx:61
+#: src/features/administration/job-task/create.tsx:146
 #: src/features/administration/manage-invoice/create-manage-invoice.tsx:533
 #: src/features/administration/notification-templates/notifyEditModal.tsx:477
 #: src/features/administration/workflow-customize/add-workflow-customize.tsx:353
@@ -2091,8 +2099,8 @@ msgstr "只能包含数字、字母、下划线或破折号"
 #: src/features/banking/payout/payer/uploadModal.tsx:223
 #: src/features/banking/payout/paymentmethod/create-payment-method.tsx:448
 #: src/features/banking/payout/paymentmethod/detailModal.tsx:534
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:1223
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:1276
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:1250
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:1303
 #: src/features/banking/payout/payout/updateCompleted.tsx:52
 #: src/features/banking/risk-control/compliance-review/upload-file-modal.tsx:251
 #: src/features/banking/risk-control/workflow/workflow-components/aml-modal.tsx:653
@@ -2103,7 +2111,7 @@ msgstr "只能包含数字、字母、下划线或破折号"
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:1015
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:1036
 #: src/features/issuing/card-management/card-bin/assign-card-bin-modal.tsx:567
-#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:510
+#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:543
 #: src/features/issuing/card-management/physical-card-number/import-card-number-modal.tsx:294
 #: src/features/issuing/channel/report-files/upload-parse-modal.tsx:254
 #: src/features/issuing/channel/transaction-reports/upload-parse-modal.tsx:248
@@ -2122,8 +2130,8 @@ msgstr "只能包含数字、字母、下划线或破折号"
 #: src/features/issuing/reconciliation/settlement-reconciliation/update-status-modal.tsx:133
 #: src/features/issuing/reconciliation/supplement/audit-modal.tsx:224
 #: src/features/issuing/reconciliation/supplement/batch-audit-modal.tsx:137
-#: src/features/issuing/reconciliation/supplement/create-supplement-modal.tsx:694
-#: src/features/issuing/reconciliation/supplement/edit-supplement-modal.tsx:673
+#: src/features/issuing/reconciliation/supplement/create-supplement-modal.tsx:695
+#: src/features/issuing/reconciliation/supplement/edit-supplement-modal.tsx:674
 #: src/features/onboarding/customer/client-config-modal.tsx:245
 #: src/features/onboarding/customer/customer-review/components/comment-upload-modal .tsx:115
 #: src/features/onboarding/document/uploadModal.tsx:164
@@ -2168,7 +2176,7 @@ msgstr "只能包含数字、字母、下划线或破折号"
 msgid "Cancel"
 msgstr "取消"
 
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:182
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:203
 msgid "Cancelled"
 msgstr "取消"
 
@@ -2195,16 +2203,16 @@ msgstr "卡期初余额"
 
 #: src/app/(dashboard)/issuing/(card-management)/card-bin/page.tsx:87
 #: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:40
-#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:210
+#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:226
 #: src/app/(dashboard)/issuing/(card-management)/physical-card-number/page.tsx:102
 #: src/app/(dashboard)/issuing/(card-management)/physical-card-number/page.tsx:260
-#: src/components/layout/sidebar-nav.tsx:244
+#: src/components/layout/sidebar-nav.tsx:245
 #: src/features/issuing/card-management/card-bin/assign-card-bin-modal.tsx:458
 #: src/features/issuing/card-management/card-bin/data-table-toolbar.tsx:199
 #: src/features/issuing/card-management/card-number/data-table-toolbar.tsx:132
-#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:283
+#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:285
 msgid "Card bin"
-msgstr "卡片箱"
+msgstr "卡头"
 
 #: src/features/issuing/card-management/card-bin/assign-card-bin-modal.tsx:216
 msgid "Card bin is required"
@@ -2223,11 +2231,11 @@ msgstr "卡片期末余额"
 msgid "Card fee"
 msgstr "卡费"
 
-#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:241
+#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:257
 #: src/app/(dashboard)/issuing/(new-card-center)/card-order/page.tsx:114
 #: src/app/(dashboard)/issuing/(new-card-center)/card-order/page.tsx:365
-#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:331
-#: src/features/issuing/new-card-center/card/data-table-columns.tsx:63
+#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:333
+#: src/features/issuing/new-card-center/card/data-table-columns.tsx:75
 #: src/features/issuing/new-card-center/card/data-table-toolbar.tsx:173
 msgid "Card form"
 msgstr "卡片类型"
@@ -2245,7 +2253,7 @@ msgstr "持卡人姓名"
 msgid "Card info"
 msgstr "卡片信息"
 
-#: src/components/layout/sidebar-nav.tsx:239
+#: src/components/layout/sidebar-nav.tsx:240
 msgid "Card inventory"
 msgstr "卡片库存"
 
@@ -2256,9 +2264,9 @@ msgstr "发卡"
 #: src/app/(dashboard)/issuing/(new-card-center)/card-ledger/page.tsx:62
 #: src/components/layout/sidebar-nav.tsx:233
 msgid "Card ledger"
-msgstr "卡片分类账"
+msgstr "卡账本"
 
-#: src/app/(dashboard)/issuing/(new-card-center)/card/page.tsx:250
+#: src/app/(dashboard)/issuing/(new-card-center)/card/page.tsx:262
 #: src/components/layout/sidebar-nav.tsx:230
 msgid "Card list"
 msgstr "卡片列表"
@@ -2290,14 +2298,14 @@ msgid "Card Name"
 msgstr "卡片名称"
 
 #: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:56
-#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:220
-#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:370
+#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:236
+#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:396
 #: src/app/(dashboard)/issuing/(card-management)/physical-card-number/page.tsx:112
 #: src/app/(dashboard)/issuing/(card-management)/physical-card-number/page.tsx:265
 #: src/app/(dashboard)/issuing/(channel)/transaction-reports/page.tsx:162
 #: src/app/(dashboard)/issuing/(channel)/transaction-reports/page.tsx:276
-#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:156
-#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:202
+#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:169
+#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:221
 #: src/app/(dashboard)/issuing/(new-card-center)/card-order/page.tsx:103
 #: src/app/(dashboard)/issuing/(new-card-center)/card-order/page.tsx:331
 #: src/app/(dashboard)/issuing/(new-card-center)/transactions/page.tsx:109
@@ -2308,8 +2316,8 @@ msgstr "卡片名称"
 #: src/app/(dashboard)/issuing/(reconciliation)/settlement-reconciliation/page.tsx:388
 #: src/app/(dashboard)/issuing/(reconciliation)/supplement/page.tsx:167
 #: src/app/(dashboard)/issuing/(statistics)/card-statistics/page.tsx:25
-#: src/components/layout/sidebar-nav.tsx:245
-#: src/features/issuing/issuing-finance/reports/generate-reports-modal.tsx:707
+#: src/components/layout/sidebar-nav.tsx:246
+#: src/features/issuing/issuing-finance/reports/generate-reports-modal.tsx:711
 #: src/features/issuing/new-card-center/card-ledger/data-table-columns.tsx:61
 #: src/features/issuing/new-card-center/card-ledger/data-table-toolbar.tsx:184
 #: src/features/issuing/new-card-center/card-ledger/info-card-ledger-modal.tsx:130
@@ -2323,7 +2331,7 @@ msgstr "卡片名称"
 #: src/features/issuing/reconciliation/supplement/edit-supplement-modal.tsx:313
 #: src/features/issuing/statistics/statistics/card-search.tsx:449
 msgid "Card number"
-msgstr "卡号"
+msgstr "直连卡号"
 
 #: src/app/(dashboard)/issuing/(reconciliation)/supplement/page.tsx:490
 #: src/features/issuing/new-card-center/card/data-table-toolbar.tsx:108
@@ -2359,7 +2367,7 @@ msgid "Card scheme"
 msgstr "卡片分类"
 
 #: src/app/(dashboard)/issuing/(statistics)/card-statistics/page.tsx:281
-#: src/components/layout/sidebar-nav.tsx:296
+#: src/components/layout/sidebar-nav.tsx:309
 msgid "Card statistics"
 msgstr "卡片统计"
 
@@ -2368,9 +2376,9 @@ msgid "Card status"
 msgstr "卡状态"
 
 #: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:48
-#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:215
+#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:231
 #: src/features/issuing/card-management/card-bin/assign-card-bin-modal.tsx:492
-#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:307
+#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:309
 msgid "Card sub bin"
 msgstr "卡片子箱"
 
@@ -2385,7 +2393,7 @@ msgid "Card transactions"
 msgstr "卡交易"
 
 #: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:63
-#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:233
+#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:249
 #: src/features/issuing/card-management/card-bin/data-table-columns.tsx:56
 #: src/features/issuing/card-management/card-bin/data-table-toolbar.tsx:231
 #: src/features/issuing/new-card-center/card-ledger/info-card-ledger-modal.tsx:119
@@ -2414,13 +2422,13 @@ msgid "Categories"
 msgstr "类别"
 
 #: src/features/banking/payout/beneficiary/detailInfo.tsx:202
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:652
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:665
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:855
 msgid "CC main recipient ID"
 msgstr "CC主收款人ID"
 
 #: src/features/banking/payout/beneficiary/detailInfo.tsx:198
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:648
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:661
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:848
 msgid "CC recipient ID"
 msgstr "CC收款人ID"
@@ -2435,7 +2443,7 @@ msgid "Change channel code"
 msgstr "更改渠道编码"
 
 #: src/features/banking/deposit/deposit-info-modal.tsx:442
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:1198
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:1225
 #: src/features/banking/risk-control/workflow/workflow-components/deposit-detail.tsx:359
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:1007
 msgid "Change payment scope"
@@ -2463,15 +2471,15 @@ msgstr "更改付款范围"
 #: src/app/(dashboard)/issuing/(reconciliation)/supplement/page.tsx:155
 #: src/app/(dashboard)/issuing/(reconciliation)/supplement/page.tsx:470
 #: src/components/layout/sidebar-nav.tsx:169
-#: src/components/layout/sidebar-nav.tsx:265
-#: src/components/layout/sidebar-nav.tsx:379
+#: src/components/layout/sidebar-nav.tsx:266
+#: src/components/layout/sidebar-nav.tsx:392
 #: src/features/administration/channel-product/route/channel/data-table-columns.tsx:122
 #: src/features/administration/dictionary-config/add-dict-modal.tsx:116
 #: src/features/issuing/card-management/card-bin/data-table-columns.tsx:37
 #: src/features/issuing/card-management/card-bin/data-table-toolbar.tsx:174
 #: src/features/issuing/channel/report-files/upload-parse-modal.tsx:146
 #: src/features/issuing/channel/transaction-reports/upload-parse-modal.tsx:140
-#: src/features/issuing/issuing-finance/account/account-bank-modal.tsx:83
+#: src/features/issuing/issuing-finance/account/account-bank-modal.tsx:84
 #: src/features/issuing/issuing-finance/account/bank-info-modal.tsx:160
 #: src/features/issuing/reconciliation/reconciliation-discrepancy/settlement-reconciliation-modal.tsx:112
 #: src/features/issuing/reconciliation/reconciliation-discrepancy/settlement-reconciliation-modal.tsx:127
@@ -2515,8 +2523,8 @@ msgstr "渠道卡ID"
 #: src/app/(dashboard)/banking/(Account)/related-channels/page.tsx:321
 #: src/app/(dashboard)/banking/(Conversion)/channel/page.tsx:48
 #: src/app/(dashboard)/banking/(Conversion)/channel/page.tsx:224
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:308
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:438
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:329
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:460
 #: src/app/(dashboard)/banking/deposit/page.tsx:96
 #: src/features/administration/channel-product/channel/add-channel-modal.tsx:263
 #: src/features/administration/channel-product/channel/data-table-columns.tsx:73
@@ -2527,7 +2535,7 @@ msgstr "渠道卡ID"
 #: src/features/banking/conversion/channel/add-conversion-modal.tsx:274
 #: src/features/banking/deposit/create-deposit-modal.tsx:440
 #: src/features/banking/deposit/deposit-info-modal.tsx:228
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:331
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:344
 #: src/features/banking/risk-control/workflow/workflow-components/deposit-detail.tsx:209
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:486
 msgid "Channel code"
@@ -2548,7 +2556,7 @@ msgid "Channel custome ID"
 msgstr "渠道客户ID"
 
 #: src/features/banking/deposit/channel-info-modal.tsx:21
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:1239
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:1266
 msgid "Channel details"
 msgstr "渠道详情"
 
@@ -2583,7 +2591,7 @@ msgstr "渠道列表"
 #: src/features/administration/channel-product/channel/data-table-toolbar.tsx:103
 #: src/features/administration/channel-product/channel/edit-channel-modal.tsx:218
 #: src/features/administration/channel-product/route/bind-channel-modal.tsx:133
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:901
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:914
 msgid "Channel name"
 msgstr "渠道名称"
 
@@ -2592,7 +2600,7 @@ msgstr "渠道名称"
 msgid "Channel name is required"
 msgstr "渠道名称是必需的"
 
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:302
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:323
 msgid "Channel order"
 msgstr "渠道订单"
 
@@ -2601,7 +2609,7 @@ msgstr "渠道订单"
 msgid "Channel params"
 msgstr "渠道参数"
 
-#: src/components/layout/sidebar-nav.tsx:371
+#: src/components/layout/sidebar-nav.tsx:384
 msgid "Channel product"
 msgstr "渠道产品"
 
@@ -2637,7 +2645,7 @@ msgstr "渠道响应编码"
 #: src/features/banking/banking-finance/transaction/transaction-detail-modal.tsx:190
 #: src/features/banking/conversion/channel/channel-info-modal.tsx:250
 #: src/features/banking/deposit/deposit-info-modal.tsx:243
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:335
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:348
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:513
 msgid "Channel resp ID"
 msgstr "渠道响应ID"
@@ -2683,8 +2691,8 @@ msgstr "渠道交易金额"
 #: src/app/(dashboard)/issuing/(reconciliation)/reconciliation-discrepancy/page.tsx:584
 #: src/app/(dashboard)/issuing/(reconciliation)/supplement/page.tsx:132
 #: src/app/(dashboard)/issuing/(reconciliation)/supplement/page.tsx:515
-#: src/features/issuing/reconciliation/supplement/create-supplement-modal.tsx:495
-#: src/features/issuing/reconciliation/supplement/edit-supplement-modal.tsx:481
+#: src/features/issuing/reconciliation/supplement/create-supplement-modal.tsx:496
+#: src/features/issuing/reconciliation/supplement/edit-supplement-modal.tsx:482
 msgid "Channel transaction ID"
 msgstr "渠道交易ID"
 
@@ -2701,7 +2709,7 @@ msgstr "渠道交易状态"
 msgid "Channel transaction type"
 msgstr "渠道交易类型"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:899
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:912
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:373
 msgid "Channel transactions"
 msgstr "渠道交易"
@@ -2726,7 +2734,7 @@ msgstr "渠道类型"
 msgid "Channel Type"
 msgstr "渠道类型"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:315
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:328
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:461
 msgid "Charge type"
 msgstr "收费类型"
@@ -2772,7 +2780,7 @@ msgstr "已检查"
 #: src/features/onboarding/customer/customer-review/components/kyc-address.tsx:388
 #: src/features/onboarding/customer/customer-review/components/kyc-individual-documents.tsx:157
 #: src/features/onboarding/customer/customer-review/components/kyc-individual-identify.tsx:526
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:687
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:735
 #: src/features/onboarding/customer/customer-review/components/kyc-profile.tsx:728
 msgid "Checked and continue"
 msgstr "已检查并继续"
@@ -2787,7 +2795,7 @@ msgstr "已检查并继续"
 #: src/features/banking/account/related-channels/view-nium-binding-modal.tsx:1045
 #: src/features/banking/account/related-channels/view-nium-binding-modal.tsx:1181
 #: src/features/banking/payout/beneficiary/detailInfo.tsx:273
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:479
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:492
 #: src/features/banking/risk-control/workflow/account-components/final-review.tsx:437
 #: src/features/banking/risk-control/workflow/workflow-components/aml-modal.tsx:437
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:638
@@ -2795,7 +2803,7 @@ msgstr "已检查并继续"
 #: src/features/issuing/new-card-center/card-holder/info-card-holder-modal.tsx:158
 #: src/features/onboarding/customer/customer-review/components/kyb-business-detail.tsx:768
 #: src/features/onboarding/customer/customer-review/components/kyc-address.tsx:273
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:563
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:611
 #: src/features/onboarding/customer/customer-review/components/kyc-ownership-detail.tsx:671
 msgid "City"
 msgstr "城市"
@@ -2901,6 +2909,7 @@ msgid "Client rate"
 msgstr "客户费率"
 
 #: src/features/banking/conversion/merchant/merchant-info-modal.tsx:932
+#: src/features/banking/risk-control/workflow/workflow-components/conversion-detail.tsx:562
 msgid "Client rate config"
 msgstr "客户利率配置"
 
@@ -2910,6 +2919,7 @@ msgstr "客户风险因素"
 
 #: src/app/(dashboard)/onboarding/(customer)/document/page.tsx:64
 #: src/features/administration/channel-product/product-template/add-product-modal-step2.tsx:231
+#: src/features/administration/job-task/update.tsx:187
 #: src/features/administration/workflow-customize/add-workflow-customize.tsx:346
 #: src/features/banking/account/AccountConfigurationContent.tsx:176
 #: src/features/banking/account/AccountConfigurationContent.tsx:218
@@ -2917,6 +2927,7 @@ msgstr "客户风险因素"
 #: src/features/banking/risk-control/workflow/account-components/account-permission.tsx:73
 #: src/features/banking/risk-control/workflow/account-components/account-permission.tsx:133
 #: src/features/issuing/issuing-finance/account/account-table-row-actions.tsx:114
+#: src/features/issuing/issuing-finance/account/add-global-account.tsx:247
 #: src/features/risk/global-parameters/info-backlist-vakue-modal.tsx:56
 msgid "Close"
 msgstr "关闭"
@@ -2970,18 +2981,17 @@ msgid "Comments"
 msgstr "评论"
 
 #: src/app/(dashboard)/administration/(financial-codes)/dbs-static-va/page.tsx:133
-#: src/app/(dashboard)/banking/(Payout)/beneficiary/page.tsx:401
 #: src/app/(dashboard)/banking/(Payout)/payer/page.tsx:60
 #: src/app/(dashboard)/banking/(Payout)/payer/page.tsx:332
 #: src/app/(dashboard)/issuing/(account)/account/page.tsx:57
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:457
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:470
 #: src/features/banking/risk-control/workflow/workflow-components/aml-modal.tsx:509
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:602
 #: src/features/issuing/issuing-finance/deposit/AML-check-modal .tsx:201
 msgid "Company"
 msgstr "公司"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:588
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:601
 msgid "COMPANY"
 msgstr "公司"
 
@@ -3048,14 +3058,14 @@ msgstr "编译成功！"
 msgid "Complete time"
 msgstr "完成时间"
 
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:174
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:195
 #: src/app/(dashboard)/onboarding/(customer)/document/page.tsx:40
 #: src/features/banking/account/related-channels/related-channel-info-modal.tsx:191
 #: src/features/banking/payout/payout/updateCompleted.tsx:40
 msgid "Completed"
 msgstr "完成"
 
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:102
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:122
 #: src/app/(dashboard)/banking/dashboard/page.tsx:109
 #: src/features/banking/deposit/data-table-row-actions.tsx:59
 msgid "Compliance"
@@ -3066,7 +3076,7 @@ msgstr "合规"
 msgid "Compliance review"
 msgstr "合规性审核"
 
-#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:222
+#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:253
 msgid "Compliance review info"
 msgstr "合规审核信息"
 
@@ -3084,10 +3094,6 @@ msgstr "配置名"
 msgid "config name is required!"
 msgstr "配置名称是必需的！"
 
-#: src/app/(dashboard)/banking/(Risk-control)/approval-workflow/page.tsx:140
-msgid "Configure"
-msgstr "配置"
-
 #: src/features/administration/email-notify/repeat-email-modal.tsx:66
 #: src/features/administration/internal/resend-modal.tsx:64
 #: src/features/administration/internal/resend-modal.tsx:64
@@ -3103,21 +3109,22 @@ msgstr "配置"
 #: src/features/banking/deposit/deposit-compliance-modal .tsx:198
 #: src/features/banking/deposit/deposit-info-modal.tsx:453
 #: src/features/banking/payout/payer/uploadStatus.tsx:260
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:1279
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:1306
 #: src/features/banking/risk-control/workflow/workflow-components/aml-modal.tsx:672
 #: src/features/banking/risk-control/workflow/workflow-components/conversion-detail.tsx:719
 #: src/features/banking/risk-control/workflow/workflow-components/conversion-detail.tsx:748
 #: src/features/banking/risk-control/workflow/workflow-components/conversion-detail.tsx:777
 #: src/features/banking/risk-control/workflow/workflow-components/deposit-detail.tsx:370
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:1018
-#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:513
+#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:546
+#: src/features/issuing/issuing-finance/account/add-global-account.tsx:251
 #: src/features/issuing/issuing-finance/deposit/data-table-row-actions.tsx:139
 #: src/features/issuing/new-card-center/card/update-card-modal.tsx:260
 #: src/features/issuing/reconciliation/reconciliation-discrepancy/settlement-reconciliation-modal.tsx:294
 #: src/features/issuing/reconciliation/supplement/audit-modal.tsx:227
 #: src/features/issuing/reconciliation/supplement/batch-audit-modal.tsx:140
-#: src/features/issuing/reconciliation/supplement/create-supplement-modal.tsx:697
-#: src/features/issuing/reconciliation/supplement/edit-supplement-modal.tsx:676
+#: src/features/issuing/reconciliation/supplement/create-supplement-modal.tsx:698
+#: src/features/issuing/reconciliation/supplement/edit-supplement-modal.tsx:677
 #: src/features/onboarding/customer/add-tag-modal.tsx:124
 #: src/features/onboarding/customer/client-config-modal.tsx:248
 #: src/features/onboarding/customer/config-modal.tsx:99
@@ -3192,8 +3199,8 @@ msgstr "汇兑详细信息"
 #: src/app/(dashboard)/banking/(Conversion)/merchant/page.tsx:291
 #: src/features/banking/conversion/channel/channel-info-modal.tsx:222
 #: src/features/banking/conversion/merchant/merchant-info-modal.tsx:565
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:956
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:1023
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:960
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:1027
 #: src/features/banking/risk-control/workflow/workflow-components/conversion-detail.tsx:376
 msgid "Conversion ID"
 msgstr "汇兑ID"
@@ -3250,20 +3257,20 @@ msgstr "计数"
 #: src/features/banking/payout/beneficiary/detailInfo.tsx:187
 #: src/features/banking/payout/paymentmethod/create-payment-method.tsx:230
 #: src/features/banking/payout/paymentmethod/detailModal.tsx:329
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:483
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:496
 #: src/features/banking/risk-control/workflow/account-components/final-review.tsx:433
 #: src/features/banking/risk-control/workflow/workflow-components/aml-modal.tsx:375
 #: src/features/banking/risk-control/workflow/workflow-components/aml-modal.tsx:431
 #: src/features/banking/risk-control/workflow/workflow-components/aml-modal.tsx:466
 #: src/features/banking/risk-control/workflow/workflow-components/deposit-detail.tsx:298
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:643
-#: src/features/issuing/issuing-finance/account/account-bank-modal.tsx:90
+#: src/features/issuing/issuing-finance/account/account-bank-modal.tsx:91
 #: src/features/issuing/issuing-finance/account/bank-info-modal.tsx:135
 #: src/features/issuing/issuing-finance/deposit/AML-check-modal .tsx:168
 #: src/features/issuing/issuing-finance/deposit/deposit-info-modal.tsx:262
 #: src/features/issuing/new-card-center/card-holder/info-card-holder-modal.tsx:115
 #: src/features/issuing/new-card-center/card-holder/info-card-holder-modal.tsx:148
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:488
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:536
 #: src/features/onboarding/profile-config/create-profile-attach-modal.tsx:164
 #: src/features/onboarding/profile-config/profile-attach-modal.tsx:65
 #: src/features/onboarding/profile-config/profile-attach-modal.tsx:142
@@ -3275,7 +3282,7 @@ msgid "COUNTRY"
 msgstr "国家"
 
 #: src/app/(dashboard)/administration/(financial-codes)/country-code/page.tsx:223
-#: src/components/layout/sidebar-nav.tsx:394
+#: src/components/layout/sidebar-nav.tsx:407
 #: src/features/banking/payout/paymentmethod/detailModal.tsx:208
 msgid "Country code"
 msgstr "国家编码"
@@ -3337,6 +3344,7 @@ msgstr "国家地位"
 #: src/features/administration/financial-codes/currency-code/create-currency-code.tsx:230
 #: src/features/administration/financial-codes/currency-pair/add-currency-pair-modal.tsx:290
 #: src/features/administration/financial-codes/industry-mcc/add-new-mcc-modal.tsx:396
+#: src/features/administration/job-task/create.tsx:148
 #: src/features/administration/notification-templates/notifyEditModal.tsx:393
 #: src/features/administration/workflow-customize/add-workflow-customize.tsx:356
 #: src/features/administration/workflow-member/createAdminMotal.tsx:239
@@ -3347,7 +3355,7 @@ msgstr "国家地位"
 #: src/features/banking/risk-control/workflow/account-components/assign-product.tsx:1202
 #: src/features/issuing/issuing-finance/account/create-adjuest-modal.tsx:321
 #: src/features/issuing/issuing-finance/account/create-balance-modal.tsx:169
-#: src/features/issuing/issuing-finance/reports/generate-reports-modal.tsx:894
+#: src/features/issuing/issuing-finance/reports/generate-reports-modal.tsx:898
 #: src/features/issuing/reconciliation/supplement/cat-log.tsx:92
 #: src/features/onboarding/customer/create-customer-modal.tsx:267
 #: src/features/onboarding/profile-config/create-modal.tsx:318
@@ -3440,6 +3448,10 @@ msgstr "创建电子邮件"
 msgid "Create exchange rate"
 msgstr "创建汇率"
 
+#: src/features/issuing/issuing-finance/account/account-bank-modal.tsx:161
+msgid "Create global account"
+msgstr "创建全球账户"
+
 #: src/features/administration/financial-codes/industry-mcc/add-new-mcc-modal.tsx:126
 msgid "Create industry mcc"
 msgstr "创建行业mcc"
@@ -3469,6 +3481,10 @@ msgstr "创建新客户"
 msgid "Create new fee scheme"
 msgstr "创建新的费用方案"
 
+#: src/features/issuing/issuing-finance/account/add-global-account.tsx:137
+msgid "Create new global account"
+msgstr "创建新的全球账户"
+
 #: src/features/administration/financial-codes/industry-mcc/add-new-mcc-modal.tsx:122
 msgid "Create new mcc"
 msgstr "创建新mcc"
@@ -3477,7 +3493,7 @@ msgstr "创建新mcc"
 msgid "Create new product"
 msgstr "创建新产品"
 
-#: src/app/(dashboard)/administration/(exchange-rate)/live-exchange-rate/page.tsx:196
+#: src/app/(dashboard)/administration/(exchange-rate)/live-exchange-rate/page.tsx:208
 msgid "Create new rate"
 msgstr "创建新费率"
 
@@ -3492,6 +3508,10 @@ msgstr "创建新约束"
 #: src/features/administration/channel-product/route/add-route-modal.tsx:117
 msgid "Create new route"
 msgstr "创建新路由"
+
+#: src/features/administration/job-task/create.tsx:80
+msgid "Create new task"
+msgstr "创建新任务"
 
 #: src/app/(dashboard)/onboarding/termversion/page.tsx:214
 #: src/features/onboarding/termversion/create-new-term.tsx:502
@@ -3565,6 +3585,10 @@ msgstr "创建补充"
 msgid "Create supplemental"
 msgstr "创建补充"
 
+#: src/app/(dashboard)/administration/job-task/page.tsx:355
+msgid "Create task job"
+msgstr "创建任务作业"
+
 #: src/app/(dashboard)/administration/notification-templates/page.tsx:271
 #: src/features/administration/notification-templates/notifyEditModal.tsx:236
 msgid "Create template"
@@ -3574,11 +3598,13 @@ msgstr "创建模板"
 #: src/app/(dashboard)/administration/(channel-product)/rate-scheme/page_copy.tsx:226
 #: src/app/(dashboard)/administration/(exchange-rate)/exchange-rate-history/page.tsx:67
 #: src/app/(dashboard)/administration/(exchange-rate)/exchange-rate-history/page.tsx:140
-#: src/app/(dashboard)/administration/(exchange-rate)/live-exchange-rate/page.tsx:87
+#: src/app/(dashboard)/administration/(exchange-rate)/live-exchange-rate/page.tsx:99
 #: src/app/(dashboard)/administration/dictionary-config/page.tsx:116
 #: src/app/(dashboard)/administration/email-notify/page.tsx:113
 #: src/app/(dashboard)/administration/email-notify/page.tsx:197
 #: src/app/(dashboard)/administration/internal/page.tsx:202
+#: src/app/(dashboard)/administration/job-log/page.tsx:146
+#: src/app/(dashboard)/administration/job-task/page.tsx:270
 #: src/app/(dashboard)/administration/message-queue/page.tsx:108
 #: src/app/(dashboard)/administration/message-queue/page.tsx:212
 #: src/app/(dashboard)/administration/notification-templates/page.tsx:133
@@ -3599,13 +3625,13 @@ msgstr "创建模板"
 #: src/app/(dashboard)/banking/(Conversion)/merchant/page.tsx:55
 #: src/app/(dashboard)/banking/(Conversion)/merchant/page.tsx:297
 #: src/app/(dashboard)/banking/(Payout)/beneficiary/page.tsx:313
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:240
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:445
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:261
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:478
 #: src/app/(dashboard)/banking/(Risk-control)/approval-workflow/page.tsx:47
 #: src/app/(dashboard)/banking/(Risk-control)/compliance-review/page.tsx:121
 #: src/app/(dashboard)/banking/adjustment/page.tsx:134
 #: src/app/(dashboard)/banking/adjustment/page.tsx:249
-#: src/app/(dashboard)/banking/dashboard/page.tsx:162
+#: src/app/(dashboard)/banking/dashboard/page.tsx:184
 #: src/app/(dashboard)/banking/deposit/page.tsx:103
 #: src/app/(dashboard)/banking/deposit/page.tsx:272
 #: src/app/(dashboard)/banking/refund/page.tsx:114
@@ -3616,7 +3642,7 @@ msgstr "创建模板"
 #: src/app/(dashboard)/issuing/(channel)/reports-files/page.tsx:83
 #: src/app/(dashboard)/issuing/(channel)/reports-files/page.tsx:217
 #: src/app/(dashboard)/issuing/(channel)/transaction-reports/page.tsx:201
-#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:197
+#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:216
 #: src/app/(dashboard)/issuing/(issuing-finance)/deposit/page.tsx:106
 #: src/app/(dashboard)/issuing/(issuing-finance)/finance-transactions/page.tsx:107
 #: src/app/(dashboard)/issuing/(issuing-finance)/refund/page.tsx:123
@@ -3655,13 +3681,13 @@ msgstr "创建模板"
 #: src/features/banking/conversion/merchant/merchant-info-modal.tsx:582
 #: src/features/banking/deposit/deposit-info-modal.tsx:216
 #: src/features/banking/payout/beneficiary/detailInfo.tsx:194
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:960
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:1027
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:964
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:1031
 #: src/features/banking/refund/refund-info-modal.tsx:126
 #: src/features/banking/risk-control/compliance-review/compliance-inform.tsx:126
 #: src/features/banking/risk-control/compliance-review/compliance-inform.tsx:145
-#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:55
-#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:212
+#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:86
+#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:243
 #: src/features/banking/risk-control/workflow/account-components/final-review.tsx:453
 #: src/features/banking/risk-control/workflow/workflow-components/adjust-detail.tsx:202
 #: src/features/banking/risk-control/workflow/workflow-components/aml-modal.tsx:299
@@ -3678,7 +3704,7 @@ msgstr "创建模板"
 #: src/features/issuing/new-card-center/card-ledger/data-table-columns.tsx:133
 #: src/features/issuing/new-card-center/card-ledger/info-card-ledger-modal.tsx:165
 #: src/features/issuing/new-card-center/card-order/info-card-order-modal.tsx:167
-#: src/features/issuing/new-card-center/card/data-table-columns.tsx:126
+#: src/features/issuing/new-card-center/card/data-table-columns.tsx:138
 #: src/features/issuing/new-card-center/card/data-table-toolbar.tsx:240
 #: src/features/issuing/new-card-center/finance-transactions/info-finance-transactions-modal.tsx:112
 #: src/features/issuing/new-card-center/transactions/details-transactions-modal.tsx:134
@@ -3736,7 +3762,7 @@ msgstr "创建者ID"
 #: src/features/banking/banking-finance/report/report-detail-modal.tsx:114
 #: src/features/banking/banking-finance/transaction/TransferInfoModal.tsx:156
 #: src/features/banking/risk-control/compliance-review/compliance-inform.tsx:143
-#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:210
+#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:241
 #: src/features/banking/risk-control/workflow/workflow-components/adjust-detail.tsx:197
 #: src/features/banking/risk-control/workflow/workflow-components/workflow-review.tsx:63
 #: src/features/banking/transfer/info-transfer-modal.tsx:210
@@ -3752,6 +3778,16 @@ msgstr "创建者姓名"
 msgid "Credit debit status"
 msgstr "借贷状态"
 
+#: src/app/(dashboard)/administration/job-task/page.tsx:190
+#: src/features/administration/job-task/create.tsx:118
+#: src/features/administration/job-task/update.tsx:136
+msgid "Cron expression"
+msgstr "Cron表达式"
+
+#: src/features/administration/job-task/create.tsx:22
+msgid "Cron expression is required"
+msgstr "Cron表达式是必需的"
+
 #: src/components/file-upload/import-file.tsx:140
 msgid "CSV, TEXT, XLS, or XLSX, file size no more than 2 MB."
 msgstr "CSV、TEXT、XLS或XLSX，文件大小不超过2 MB。"
@@ -3763,7 +3799,7 @@ msgstr "CSV、TEXT、XLS或XLSX，文件大小不超过2 MB。"
 #: src/app/(dashboard)/banking/(Payout)/beneficiary/page.tsx:281
 #: src/app/(dashboard)/banking/(Payout)/payment-method/page.tsx:150
 #: src/app/(dashboard)/banking/(Payout)/payment-method/page.tsx:209
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:270
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:291
 #: src/app/(dashboard)/issuing/(statistics)/account-statistics/page.tsx:75
 #: src/app/(dashboard)/issuing/(statistics)/account-statistics/page.tsx:218
 #: src/app/(dashboard)/issuing/(statistics)/card-statistics/page.tsx:62
@@ -3779,18 +3815,18 @@ msgstr "CSV、TEXT、XLS或XLSX，文件大小不超过2 MB。"
 #: src/features/banking/payout/paymentmethod/create-payment-method.tsx:253
 #: src/features/banking/payout/paymentmethod/detailModal.tsx:349
 #: src/features/issuing/issuing-finance/account/account-balance-modal .tsx:35
-#: src/features/issuing/issuing-finance/account/account-bank-modal.tsx:97
+#: src/features/issuing/issuing-finance/account/account-bank-modal.tsx:98
 #: src/features/issuing/issuing-finance/account/bank-info-modal.tsx:141
 #: src/features/issuing/issuing-finance/account/create-adjuest-modal.tsx:200
 #: src/features/issuing/issuing-finance/account/create-balance-modal.tsx:149
-#: src/features/issuing/issuing-finance/reports/generate-reports-modal.tsx:731
+#: src/features/issuing/issuing-finance/reports/generate-reports-modal.tsx:735
 #: src/features/issuing/statistics/statistics/account-search.tsx:479
 #: src/features/issuing/statistics/statistics/card-search.tsx:463
 msgid "Currency"
 msgstr "币种"
 
 #: src/app/(dashboard)/administration/(financial-codes)/currency-code/page.tsx:194
-#: src/components/layout/sidebar-nav.tsx:393
+#: src/components/layout/sidebar-nav.tsx:406
 #: src/features/administration/financial-codes/currency-code/create-currency-code.tsx:163
 #: src/features/banking/payout/paymentmethod/detailModal.tsx:212
 msgid "Currency code"
@@ -3819,11 +3855,11 @@ msgstr "币种名称"
 msgid "Currency name is required"
 msgstr "币种名称为必填项"
 
-#: src/app/(dashboard)/administration/(exchange-rate)/live-exchange-rate/page.tsx:51
+#: src/app/(dashboard)/administration/(exchange-rate)/live-exchange-rate/page.tsx:52
 #: src/app/(dashboard)/administration/(financial-codes)/currency-pair/page.tsx:199
 #: src/app/(dashboard)/banking/(Conversion)/channel/page.tsx:199
 #: src/app/(dashboard)/banking/(Conversion)/merchant/page.tsx:267
-#: src/components/layout/sidebar-nav.tsx:392
+#: src/components/layout/sidebar-nav.tsx:405
 #: src/features/administration/exchange-rate/live-exchange-rate/add-exchange-rate.tsx:280
 #: src/features/banking/conversion/channel/channel-info-modal.tsx:324
 #: src/features/banking/conversion/merchant/merchant-info-modal.tsx:625
@@ -3936,9 +3972,9 @@ msgid "Dashboard"
 msgstr "仪表盘"
 
 #: src/app/(dashboard)/banking/(Banking-finance)/transactions/page.tsx:372
-#: src/app/(dashboard)/issuing/(issuing-finance)/reports/page.tsx:197
+#: src/app/(dashboard)/issuing/(issuing-finance)/reports/page.tsx:210
 #: src/app/(dashboard)/issuing/(new-card-center)/card-order/page.tsx:379
-#: src/features/issuing/issuing-finance/reports/generate-reports-modal.tsx:768
+#: src/features/issuing/issuing-finance/reports/generate-reports-modal.tsx:772
 msgid "Date"
 msgstr "日期"
 
@@ -3949,7 +3985,7 @@ msgstr "日期"
 #: src/features/banking/account/related-channels/view-nium-binding-modal-step4.tsx:591
 #: src/features/banking/risk-control/workflow/account-components/final-review.tsx:391
 #: src/features/issuing/new-card-center/card-holder/info-card-holder-modal.tsx:95
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:417
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:465
 #: src/features/onboarding/customer/customer-review/components/kyc-ownership-detail.tsx:531
 msgid "Date of birth"
 msgstr "出生日期:"
@@ -3963,11 +3999,11 @@ msgstr "出生日期为必填项"
 #: src/app/(dashboard)/banking/transfer/page.tsx:200
 #: src/app/(dashboard)/issuing/(issuing-finance)/deposit/page.tsx:209
 #: src/app/(dashboard)/issuing/(issuing-finance)/finance-transactions/page.tsx:220
-#: src/app/(dashboard)/issuing/(issuing-finance)/reports/page.tsx:204
+#: src/app/(dashboard)/issuing/(issuing-finance)/reports/page.tsx:217
 #: src/app/(dashboard)/issuing/(issuing-finance)/transfer/page.tsx:187
 #: src/app/(dashboard)/issuing/(new-card-center)/card-order/page.tsx:386
 #: src/app/(dashboard)/issuing/(new-card-center)/transactions/page.tsx:290
-#: src/features/issuing/issuing-finance/reports/generate-reports-modal.tsx:756
+#: src/features/issuing/issuing-finance/reports/generate-reports-modal.tsx:760
 msgid "Date range"
 msgstr "日期范围"
 
@@ -3977,7 +4013,7 @@ msgstr "日期线"
 
 #: src/features/onboarding/customer/customer-review/components/kyc-individual-identify.tsx:321
 #: src/features/onboarding/customer/customer-review/components/kyc-individual-identify.tsx:423
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:430
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:478
 #: src/features/onboarding/customer/customer-review/components/kyc-ownership-detail.tsx:536
 #: src/features/onboarding/customer/customer-review/components/kyc-profile.tsx:494
 #: src/features/onboarding/customer/customer-review/components/kyc-profile.tsx:586
@@ -4061,14 +4097,13 @@ msgstr "默认主键"
 msgid "Delay in execution"
 msgstr "执行延迟"
 
-#: src/app/(dashboard)/administration/(exchange-rate)/live-exchange-rate/page.tsx:37
+#: src/app/(dashboard)/administration/(exchange-rate)/live-exchange-rate/page.tsx:38
 #: src/app/(dashboard)/administration/(financial-codes)/country-code/page.tsx:46
 #: src/app/(dashboard)/administration/(financial-codes)/currency-code/page.tsx:36
 #: src/app/(dashboard)/administration/manage-invoice/page.tsx:36
 #: src/app/(dashboard)/administration/message-queue/page.tsx:35
 #: src/app/(dashboard)/administration/notification-templates/page.tsx:43
 #: src/app/(dashboard)/administration/workflow-customize/page.tsx:45
-#: src/app/(dashboard)/banking/(Payout)/beneficiary/page.tsx:466
 #: src/app/(dashboard)/banking/(Payout)/payer/page.tsx:136
 #: src/app/(dashboard)/banking/(Payout)/payer/page.tsx:410
 #: src/components/remove-modal.tsx:99
@@ -4161,7 +4196,7 @@ msgstr "删除成功"
 msgid "Delivery address"
 msgstr "收货地址"
 
-#: src/features/issuing/new-card-center/card/data-table-columns.tsx:110
+#: src/features/issuing/new-card-center/card/data-table-columns.tsx:122
 #: src/features/issuing/new-card-center/card/data-table-toolbar.tsx:218
 msgid "Delivery status"
 msgstr "物流状态"
@@ -4180,7 +4215,7 @@ msgstr "部署方法"
 #: src/app/(dashboard)/banking/deposit/page.tsx:388
 #: src/app/(dashboard)/issuing/(issuing-finance)/deposit/page.tsx:323
 #: src/components/layout/sidebar-nav.tsx:123
-#: src/components/layout/sidebar-nav.tsx:257
+#: src/components/layout/sidebar-nav.tsx:258
 #: src/features/banking/banking-finance/transaction/transaction-detail-modal.tsx:360
 msgid "Deposit"
 msgstr "入账"
@@ -4241,7 +4276,7 @@ msgstr "描述"
 
 #: src/app/(dashboard)/administration/dictionary-config/page.tsx:87
 #: src/app/(dashboard)/banking/(Risk-control)/approval-workflow/page.tsx:39
-#: src/app/(dashboard)/banking/dashboard/page.tsx:154
+#: src/app/(dashboard)/banking/dashboard/page.tsx:176
 #: src/app/(dashboard)/issuing/(new-card-center)/transactions/page.tsx:164
 #: src/app/(dashboard)/issuing/(reconciliation)/supplement/page.tsx:320
 #: src/features/administration/channel-product/product-template/add-template-modal-step1.tsx:191
@@ -4256,8 +4291,8 @@ msgstr "描述"
 #: src/features/banking/payout/payout/approvalModal.tsx:123
 #: src/features/banking/risk-control/workflow/workflow-components/workflow-review.tsx:69
 #: src/features/issuing/new-card-center/transactions/details-transactions-modal.tsx:139
-#: src/features/issuing/reconciliation/supplement/create-supplement-modal.tsx:668
-#: src/features/issuing/reconciliation/supplement/edit-supplement-modal.tsx:654
+#: src/features/issuing/reconciliation/supplement/create-supplement-modal.tsx:669
+#: src/features/issuing/reconciliation/supplement/edit-supplement-modal.tsx:655
 #: src/features/risk/parameter-group/add-parameters-group-modal.tsx:83
 #: src/features/risk/parameter-group/edit-rules-parameters-group-modal.tsx:97
 msgid "Description"
@@ -4291,7 +4326,7 @@ msgstr "目标账户类型"
 #: src/app/(dashboard)/banking/(Payout)/beneficiary/page.tsx:156
 #: src/app/(dashboard)/banking/(Payout)/payer/page.tsx:170
 #: src/app/(dashboard)/banking/(Payout)/payment-method/page.tsx:108
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:96
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:116
 #: src/app/(dashboard)/banking/invoice/page.tsx:43
 #: src/features/administration/channel-product/rate-scheme/logs/data-table-row-actions.tsx:54
 #: src/features/onboarding/customer/customer-user/data-table-row-actions.tsx:52
@@ -4353,7 +4388,7 @@ msgid "Dict value"
 msgstr "字典值"
 
 #: src/app/(dashboard)/administration/dictionary-config/page.tsx:208
-#: src/components/layout/sidebar-nav.tsx:460
+#: src/components/layout/sidebar-nav.tsx:477
 msgid "Dictionary config"
 msgstr "字典配置"
 
@@ -4377,6 +4412,7 @@ msgstr "机构ID"
 #: src/features/administration/workflow-member/editAdmin.tsx:192
 #: src/features/banking/account/ProductConfigurationModal.tsx:731
 #: src/features/banking/risk-control/workflow/account-components/assign-product.tsx:1183
+#: src/features/issuing/issuing-finance/account/account-table-row-actions.tsx:84
 #: src/features/onboarding/profile-config/create-modal.tsx:308
 msgid "Disable"
 msgstr "禁用"
@@ -4389,7 +4425,6 @@ msgstr "成功禁用产品和费用"
 msgid "Disable product template successfully"
 msgstr "已成功禁用产品模板"
 
-#: src/app/(dashboard)/banking/(Payout)/beneficiary/page.tsx:458
 #: src/app/(dashboard)/banking/(Payout)/payer/page.tsx:142
 #: src/app/(dashboard)/banking/(Payout)/payer/page.tsx:402
 #: src/features/administration/channel-product/channel/add-channel-modal.tsx:477
@@ -4462,12 +4497,12 @@ msgstr "争议ID"
 
 #: src/app/(dashboard)/banking/(Risk-control)/compliance-review/page.tsx:185
 #: src/features/banking/risk-control/compliance-review/compliance-inform.tsx:140
-#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:207
+#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:238
 msgid "Dispute status"
 msgstr "争议状态"
 
 #: src/features/banking/risk-control/compliance-review/compliance-inform.tsx:137
-#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:204
+#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:235
 msgid "Dispute type"
 msgstr "争议类型"
 
@@ -4543,14 +4578,14 @@ msgstr "文件编号是必需的"
 #: src/app/(dashboard)/banking/(Risk-control)/compliance-review/page.tsx:178
 #: src/app/(dashboard)/banking/(Risk-control)/compliance-review/page.tsx:285
 #: src/features/banking/risk-control/compliance-review/compliance-inform.tsx:139
-#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:206
+#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:237
 msgid "Document status"
 msgstr "文档状态"
 
 #: src/features/banking/deposit/deposit-compliance-modal .tsx:147
 #: src/features/banking/payout/payout/payoutComplianceModal.tsx:200
 #: src/features/banking/risk-control/compliance-review/compliance-inform.tsx:165
-#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:238
+#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:269
 msgid "Document type"
 msgstr "文档类型"
 
@@ -4570,7 +4605,7 @@ msgstr "文档类型为必填项"
 
 #: src/features/banking/account/related-channels/related-channel-info-modal.tsx:327
 #: src/features/banking/risk-control/compliance-review/compliance-inform.tsx:179
-#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:252
+#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:283
 #: src/features/onboarding/customer/customer-review/components/kyc-profile.tsx:687
 msgid "Documents"
 msgstr "文件"
@@ -4589,24 +4624,24 @@ msgstr "多恩"
 msgid "download"
 msgstr "下载"
 
-#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:378
+#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:404
 #: src/app/(dashboard)/issuing/(issuing-finance)/deposit/page.tsx:329
 #: src/app/(dashboard)/issuing/(issuing-finance)/finance-transactions/page.tsx:363
 #: src/app/(dashboard)/issuing/(new-card-center)/card-order/page.tsx:529
-#: src/app/(dashboard)/issuing/(new-card-center)/card/page.tsx:314
+#: src/app/(dashboard)/issuing/(new-card-center)/card/page.tsx:326
 #: src/app/(dashboard)/issuing/(new-card-center)/transactions/page.tsx:434
 #: src/app/(dashboard)/issuing/(reconciliation)/reconciliation-discrepancy/page.tsx:770
 #: src/app/(dashboard)/issuing/(reconciliation)/settlement-reconciliation/page.tsx:564
 #: src/app/(dashboard)/issuing/(reconciliation)/supplement/page.tsx:686
 #: src/app/(dashboard)/issuing/(statistics)/account-statistics/page.tsx:368
 #: src/app/(dashboard)/issuing/(statistics)/card-statistics/page.tsx:287
-#: src/components/search-box/search.tsx:660
+#: src/components/search-box/search.tsx:684
 #: src/features/issuing/channel/report-files/data-table-row-actions.tsx:118
-#: src/features/issuing/new-card-center/card/data-table-toolbar.tsx:269
+#: src/features/issuing/new-card-center/card/data-table-toolbar.tsx:289
 msgid "Download"
 msgstr "下载"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:401
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:414
 msgid "Download payout confirmation letter"
 msgstr "下载付款确认函"
 
@@ -4619,7 +4654,7 @@ msgid "Drivers license"
 msgstr "驾驶执照"
 
 #: src/app/(dashboard)/banking/(Payout)/payer/page.tsx:81
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:96
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:98
 msgid "Drivers License"
 msgstr "驾驶执照"
 
@@ -4639,7 +4674,7 @@ msgstr "拖放或"
 msgid "Drop or Select file"
 msgstr "拖放文件或选择文件"
 
-#: src/app/(dashboard)/administration/(exchange-rate)/live-exchange-rate/page.tsx:30
+#: src/app/(dashboard)/administration/(exchange-rate)/live-exchange-rate/page.tsx:31
 #: src/app/(dashboard)/administration/(financial-codes)/country-code/page.tsx:39
 #: src/app/(dashboard)/administration/(financial-codes)/currency-code/page.tsx:29
 #: src/app/(dashboard)/administration/dictionary-config/page.tsx:28
@@ -4901,7 +4936,7 @@ msgid "Email is required"
 msgstr "电子邮件是必需的"
 
 #: src/app/(dashboard)/administration/email-notify/page.tsx:260
-#: src/components/layout/sidebar-nav.tsx:418
+#: src/components/layout/sidebar-nav.tsx:435
 msgid "Email notify"
 msgstr "电子邮件通知"
 
@@ -4914,7 +4949,6 @@ msgstr "电子邮件主题为必填项"
 msgid "Employer declaration"
 msgstr "雇主声明"
 
-#: src/app/(dashboard)/banking/(Payout)/beneficiary/page.tsx:462
 #: src/app/(dashboard)/banking/(Payout)/payer/page.tsx:130
 #: src/app/(dashboard)/banking/(Payout)/payer/page.tsx:406
 #: src/features/administration/channel-product/channel/add-channel-modal.tsx:474
@@ -4940,6 +4974,7 @@ msgstr "雇主声明"
 #: src/features/administration/workflow-member/editAdmin.tsx:190
 #: src/features/banking/account/ProductConfigurationModal.tsx:728
 #: src/features/banking/risk-control/workflow/account-components/assign-product.tsx:1181
+#: src/features/issuing/issuing-finance/account/account-table-row-actions.tsx:85
 #: src/features/onboarding/customer/client-config-modal.tsx:232
 #: src/features/onboarding/profile-config/create-modal.tsx:306
 msgid "Enable"
@@ -5056,7 +5091,7 @@ msgstr "以美元估算"
 #: src/features/banking/banking-finance/transaction/components/ReviewLogs.tsx:38
 #: src/features/banking/conversion/merchant/merchant-info-modal.tsx:162
 #: src/features/banking/invoice/audit-log.tsx:55
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:825
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:838
 #: src/features/banking/risk-control/workflow/workflow-components/adjust-detail.tsx:132
 #: src/features/banking/risk-control/workflow/workflow-components/adjust-detail.tsx:132
 #: src/features/banking/risk-control/workflow/workflow-components/conversion-detail.tsx:346
@@ -5086,7 +5121,7 @@ msgid "Event payload details"
 msgstr "事件有效载荷详细信息"
 
 #: src/app/(dashboard)/risk/event-query/page.tsx:230
-#: src/components/layout/sidebar-nav.tsx:338
+#: src/components/layout/sidebar-nav.tsx:351
 msgid "Event query"
 msgstr "事件查询"
 
@@ -5124,15 +5159,15 @@ msgstr "交易所"
 
 #: src/app/(dashboard)/banking/(Conversion)/channel/page.tsx:113
 #: src/app/(dashboard)/banking/(Conversion)/merchant/page.tsx:111
-#: src/components/layout/sidebar-nav.tsx:400
+#: src/components/layout/sidebar-nav.tsx:413
 #: src/features/banking/conversion/channel/channel-info-modal.tsx:282
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:944
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:1011
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:948
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:1015
 msgid "Exchange rate"
 msgstr "汇率"
 
 #: src/app/(dashboard)/administration/(exchange-rate)/exchange-rate-history/page.tsx:153
-#: src/components/layout/sidebar-nav.tsx:406
+#: src/components/layout/sidebar-nav.tsx:421
 msgid "Exchange rate history"
 msgstr "汇率历史"
 
@@ -5145,7 +5180,7 @@ msgstr "汇兑结算金额"
 #: src/features/banking/conversion/merchant/merchant-info-modal.tsx:597
 #: src/features/banking/deposit/deposit-info-modal.tsx:293
 #: src/features/banking/payout/beneficiary/detailInfo.tsx:211
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:357
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:370
 #: src/features/banking/risk-control/workflow/workflow-components/deposit-detail.tsx:265
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:529
 msgid "Execute reason"
@@ -5161,7 +5196,7 @@ msgid "Expected activity"
 msgstr "预期活动"
 
 #: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:101
-#: src/app/(dashboard)/issuing/(issuing-finance)/reports/page.tsx:68
+#: src/app/(dashboard)/issuing/(issuing-finance)/reports/page.tsx:81
 msgid "Expire date"
 msgstr "到期日期"
 
@@ -5169,11 +5204,11 @@ msgstr "到期日期"
 msgid "Expire Date"
 msgstr "到期日"
 
-#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:464
+#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:497
 msgid "Expire date month"
 msgstr "到期日月份"
 
-#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:432
+#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:465
 msgid "Expire date year"
 msgstr "到期日期年份"
 
@@ -5194,20 +5229,19 @@ msgstr "到期日"
 msgid "External user id"
 msgstr "外部用户id"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:656
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:669
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:685
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:868
 msgid "Fail reason"
 msgstr "失败原因"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:503
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:516
 msgid "Fail Reason"
 msgstr "失败原因"
 
-#: src/app/(dashboard)/banking/(Payout)/beneficiary/page.tsx:446
 #: src/app/(dashboard)/banking/(Payout)/payer/page.tsx:115
 #: src/app/(dashboard)/banking/(Payout)/payer/page.tsx:390
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:178
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:199
 #: src/app/(dashboard)/onboarding/(customer)/document/page.tsx:44
 #: src/features/banking/account/related-channels/related-channel-info-modal.tsx:179
 #: src/features/banking/risk-control/workflow/workflow-components/aml-modal.tsx:619
@@ -5218,6 +5252,11 @@ msgstr "失败"
 #: src/app/(dashboard)/risk/event-query/page.tsx:148
 msgid "Failed rule"
 msgstr "失败规则"
+
+#: src/features/administration/job-task/create.tsx:58
+#: src/features/administration/job-task/create.tsx:70
+msgid "Failed to create task"
+msgstr "创建任务失败"
 
 #: src/components/remove-modal.tsx:66
 msgid "Failed to delete the message."
@@ -5256,6 +5295,11 @@ msgstr "解析数据失败："
 msgid "Failed to submit"
 msgstr "提交失败"
 
+#: src/features/administration/job-task/update.tsx:68
+#: src/features/administration/job-task/update.tsx:82
+msgid "Failed to update task"
+msgstr "更新任务失败"
+
 #: src/app/(dashboard)/administration/manage-permissions/page.tsx:132
 msgid "Failed to update the message."
 msgstr "更新消息失败。"
@@ -5273,7 +5317,7 @@ msgstr "更新消息失败。"
 #: src/features/banking/deposit/create-deposit-modal.tsx:262
 #: src/features/banking/deposit/create-deposit-modal.tsx:279
 #: src/features/banking/deposit/deposit-info-modal.tsx:210
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:307
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:320
 #: src/features/banking/risk-control/workflow/workflow-components/deposit-detail.tsx:185
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:449
 #: src/features/issuing/issuing-finance/deposit/deposit-info-modal.tsx:196
@@ -5310,7 +5354,7 @@ msgstr "费用类型"
 msgid "Fee type included is required"
 msgstr "费用类型为必填项"
 
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:291
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:312
 #: src/app/(dashboard)/banking/deposit/page.tsx:282
 msgid "FI account ID"
 msgstr "金融机构账户ID"
@@ -5357,7 +5401,7 @@ msgid "Field Value"
 msgstr "字段值"
 
 #: src/app/(dashboard)/banking/(Banking-finance)/reports/page.tsx:206
-#: src/features/issuing/issuing-finance/reports/generate-reports-modal.tsx:849
+#: src/features/issuing/issuing-finance/reports/generate-reports-modal.tsx:853
 msgid "File format"
 msgstr "文件格式"
 
@@ -5370,10 +5414,10 @@ msgstr "文件ID"
 #: src/features/banking/account/related-channels/related-channel-info-modal.tsx:33
 #: src/features/banking/banking-finance/report/report-detail-modal.tsx:99
 #: src/features/banking/risk-control/compliance-review/compliance-inform.tsx:105
-#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:34
+#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:65
 #: src/features/banking/risk-control/workflow/account-components/merchant-contract.tsx:29
 #: src/features/banking/risk-control/workflow/account-components/merchant-contract.tsx:29
-#: src/features/issuing/issuing-finance/reports/generate-reports-modal.tsx:877
+#: src/features/issuing/issuing-finance/reports/generate-reports-modal.tsx:881
 msgid "File name"
 msgstr "文件名"
 
@@ -5385,7 +5429,7 @@ msgstr "文件名不能超过80个字符"
 msgid "File name is required"
 msgstr "文件名是必需的"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:1068
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:1085
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:256
 msgid "File path is empty"
 msgstr "文件路径为空"
@@ -5423,7 +5467,7 @@ msgid "Filter"
 msgstr "过滤器"
 
 #: src/app/(dashboard)/risk/(rules)/filter-field/page.tsx:163
-#: src/components/layout/sidebar-nav.tsx:321
+#: src/components/layout/sidebar-nav.tsx:334
 msgid "Filter field"
 msgstr "筛选器字段"
 
@@ -5435,7 +5479,7 @@ msgstr "筛选器字段配置"
 msgid "Filter fields"
 msgstr "筛选字段"
 
-#: src/components/layout/sidebar-nav.tsx:386
+#: src/components/layout/sidebar-nav.tsx:399
 msgid "Finacial codes"
 msgstr "金融编码"
 
@@ -5443,12 +5487,8 @@ msgstr "金融编码"
 msgid "Final review"
 msgstr "最终评审"
 
-#: src/app/(dashboard)/banking/(Risk-control)/approval-workflow/page.tsx:139
-msgid "Finance"
-msgstr "财务"
-
 #: src/app/(dashboard)/issuing/(issuing-finance)/finance-transactions/page.tsx:357
-#: src/components/layout/sidebar-nav.tsx:260
+#: src/components/layout/sidebar-nav.tsx:261
 msgid "Finance transactions"
 msgstr "账户流水"
 
@@ -5462,7 +5502,7 @@ msgstr "账户流水"
 msgid "First name"
 msgstr "名字"
 
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:242
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:267
 #: src/features/onboarding/customer/customer-review/components/kyc-ownership-detail.tsx:346
 msgid "First name (English)"
 msgstr "名字（英文）"
@@ -5568,7 +5608,19 @@ msgstr "冷冻"
 msgid "Funds will be available the same day"
 msgstr "资金将于当天到位"
 
-#: src/features/issuing/issuing-finance/reports/generate-reports-modal.tsx:610
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:975
+msgid "FX details"
+msgstr "外汇详细信息"
+
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:1042
+msgid "FX details-returned"
+msgstr "返回外汇详细信息"
+
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:381
+msgid "Gender"
+msgstr "性别"
+
+#: src/features/issuing/issuing-finance/reports/generate-reports-modal.tsx:614
 msgid "Generate"
 msgstr "生成"
 
@@ -5577,12 +5629,12 @@ msgstr "生成"
 msgid "Generate agreement"
 msgstr "生成协议"
 
-#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:264
-#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:269
+#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:266
+#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:271
 msgid "Generate card numbers"
 msgstr "生成卡号"
 
-#: src/features/issuing/issuing-finance/reports/generate-reports-modal.tsx:614
+#: src/features/issuing/issuing-finance/reports/generate-reports-modal.tsx:618
 msgid "Generate Transaction Reconciliation Report"
 msgstr "生成交易对账报告"
 
@@ -5594,7 +5646,11 @@ msgstr "获取详细信息错误"
 msgid "get details failed!"
 msgstr "获取详细信息失败！"
 
-#: src/components/layout/sidebar-nav.tsx:329
+#: src/features/issuing/issuing-finance/account/add-global-account.tsx:152
+msgid "Global account"
+msgstr "全球账户"
+
+#: src/components/layout/sidebar-nav.tsx:342
 msgid "Global parameters"
 msgstr "全局参数"
 
@@ -5607,7 +5663,7 @@ msgid "Go to approval"
 msgstr "转到审批"
 
 #: src/features/banking/banking-finance/transaction/transaction-detail-modal.tsx:379
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:924
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:1163
 msgid "go to approve"
 msgstr "前往审批"
 
@@ -5803,7 +5859,7 @@ msgstr "Http响应错误"
 #: src/app/(dashboard)/banking/(Payout)/payment-method/page.tsx:124
 #: src/features/banking/account/related-channels/related-channel-info-modal.tsx:17
 #: src/features/banking/risk-control/compliance-review/compliance-inform.tsx:89
-#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:18
+#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:49
 msgid "ID"
 msgstr "ID"
 
@@ -5817,7 +5873,7 @@ msgid "ID issue date"
 msgstr "身份证签发日期"
 
 #: src/features/banking/payout/beneficiary/detailInfo.tsx:206
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:602
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:615
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:862
 msgid "ID number"
 msgstr "身份证号码"
@@ -5904,7 +5960,6 @@ msgid "In progress"
 msgstr "进行中"
 
 #: src/app/(dashboard)/administration/notification-templates/page.tsx:183
-#: src/app/(dashboard)/banking/(Account)/related-channels/page.tsx:279
 #: src/features/administration/manage-invoice/create-manage-invoice.tsx:522
 #: src/features/banking/account/related-channels/related-channel-info-modal.tsx:77
 msgid "Inactive"
@@ -5923,7 +5978,7 @@ msgid "Incorporation number"
 msgstr "公司注册号"
 
 #: src/app/(dashboard)/banking/(Payout)/payer/page.tsx:99
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:102
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:104
 msgid "Incorporation Number"
 msgstr "公司注册号"
 
@@ -5935,11 +5990,11 @@ msgstr "公司类型"
 msgid "Incorporation value"
 msgstr "公司注册编码"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:467
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:480
 msgid "Incorportation type"
 msgstr "公司类型"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:471
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:484
 msgid "Incorportation value"
 msgstr "公司注册编码"
 
@@ -5952,7 +6007,7 @@ msgstr "费率步长范围不正确！"
 msgid "Individual"
 msgstr "个人"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:586
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:599
 msgid "INDIVIDUAL"
 msgstr "个人"
 
@@ -5960,7 +6015,7 @@ msgstr "个人"
 msgid "Individual info"
 msgstr "个人信息"
 
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:237
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:262
 msgid "Individual information"
 msgstr "个人信息"
 
@@ -5969,7 +6024,7 @@ msgid "Industry"
 msgstr "行业"
 
 #: src/app/(dashboard)/administration/(financial-codes)/industry-mcc/page.tsx:51
-#: src/components/layout/sidebar-nav.tsx:391
+#: src/components/layout/sidebar-nav.tsx:404
 msgid "Industry mcc"
 msgstr "行业mcc"
 
@@ -6019,7 +6074,7 @@ msgstr "输入不能为空"
 msgid "Instance name"
 msgstr "实例名称"
 
-#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:170
+#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:171
 msgid "Insufficient number of generators remaining"
 msgstr "剩余发电机数量不足"
 
@@ -6033,7 +6088,7 @@ msgstr "账户的预期用途"
 msgid "Intended use of account is required"
 msgstr "需要账户的预期用途"
 
-#: src/components/layout/sidebar-nav.tsx:366
+#: src/components/layout/sidebar-nav.tsx:379
 msgid "Internal"
 msgstr "内部"
 
@@ -6150,12 +6205,12 @@ msgstr "发行余额快照"
 msgid "Issuing Card (IC)"
 msgstr "发卡卡（IC）"
 
-#: src/components/layout/sidebar-nav.tsx:251
+#: src/components/layout/sidebar-nav.tsx:252
 msgid "Issuing finance"
-msgstr "发行融资"
+msgstr "发卡财务"
 
-#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:148
-#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:249
+#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:164
+#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:265
 msgid "Issuing method"
 msgstr "发放方式"
 
@@ -6187,9 +6242,19 @@ msgstr "行"
 msgid "Items"
 msgstr "项目"
 
+#: src/app/(dashboard)/administration/job-task/page.tsx:119
+msgid "Job ID"
+msgstr "作业ID"
+
 #: src/features/onboarding/customer/customer-review/components/kyc-ownership-detail.tsx:419
 msgid "Job title"
 msgstr "职位名称"
+
+#: src/app/(dashboard)/administration/job-task/page.tsx:305
+#: src/features/administration/job-task/create.tsx:98
+#: src/features/administration/job-task/update.tsx:115
+msgid "Job type"
+msgstr "工作类型"
 
 #: src/features/banking/payout/payer/uploadModal.tsx:145
 #: src/features/issuing/issuing-finance/deposit/return-upload-modal .tsx:157
@@ -6201,7 +6266,7 @@ msgstr "JPG、JPEG、PNG、PDF、ZIP或RAR，文件大小不超过10MB。"
 msgid "Jurisdiction of collections"
 msgstr "收款管辖权"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:495
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:508
 msgid "Jurisdiction of Collections"
 msgstr "托收管辖权"
 
@@ -6209,7 +6274,7 @@ msgstr "托收管辖权"
 msgid "Jurisdiction of payments"
 msgstr "付款管辖权"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:491
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:504
 msgid "Jurisdiction of Payments"
 msgstr "付款管辖权"
 
@@ -6283,7 +6348,7 @@ msgstr "上次登录时间"
 msgid "Last name"
 msgstr "姓氏"
 
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:273
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:298
 #: src/features/onboarding/customer/customer-review/components/kyc-ownership-detail.tsx:368
 msgid "Last name (English)"
 msgstr "姓氏（英文）"
@@ -6316,6 +6381,7 @@ msgstr "法定企业名称"
 msgid "Legal business name (English)"
 msgstr "法定企业名称（英文）"
 
+#: src/features/banking/account/related-channels/nium-binding-modal.tsx:894
 #: src/features/banking/account/related-channels/view-nium-binding-modal.tsx:886
 msgid "Legal Details"
 msgstr "法律细节"
@@ -6329,7 +6395,7 @@ msgid "Legal entity name(English)"
 msgstr "法人实体名称（英文）"
 
 #: src/features/banking/payout/beneficiary/detailInfo.tsx:153
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:612
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:625
 msgid "Legal representative name"
 msgstr "法定代表人姓名"
 
@@ -6366,8 +6432,8 @@ msgstr "上市交易所"
 msgid "Listed exchange is required"
 msgstr "需要上市交易所"
 
-#: src/app/(dashboard)/administration/(exchange-rate)/live-exchange-rate/page.tsx:190
-#: src/components/layout/sidebar-nav.tsx:405
+#: src/app/(dashboard)/administration/(exchange-rate)/live-exchange-rate/page.tsx:202
+#: src/components/layout/sidebar-nav.tsx:418
 msgid "Live exchange rate"
 msgstr "实时汇率"
 
@@ -6380,9 +6446,9 @@ msgstr "活体检测人脸URL"
 msgid "Loading..."
 msgstr "加载。。。"
 
-#: src/app/(dashboard)/banking/(Payout)/beneficiary/page.tsx:478
-msgid "Local"
-msgstr "本地"
+#: src/features/issuing/issuing-finance/account/add-global-account.tsx:157
+msgid "Local account"
+msgstr "本地账户"
 
 #: src/app/(dashboard)/banking/(Payout)/beneficiary/page.tsx:101
 msgid "Local(Company)"
@@ -6395,12 +6461,13 @@ msgstr "住宿。。。"
 #: src/app/(dashboard)/administration/operation-log/page.tsx:232
 #: src/features/banking/payout/amountLimit/edit-amount-limit.tsx:99
 #: src/features/banking/payout/amountLimit/edit-amount-limit.tsx:151
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:834
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:847
 #: src/features/issuing/reconciliation/supplement/cat-log.tsx:45
 #: src/features/issuing/reconciliation/supplement/data-table-row-actions.tsx:64
 msgid "Log"
 msgstr "日志"
 
+#: src/app/(dashboard)/administration/job-log/page.tsx:75
 #: src/features/administration/operation-log/detail.tsx:39
 msgid "Log ID"
 msgstr "日志ID"
@@ -6432,11 +6499,11 @@ msgid "Logs"
 msgstr "日志"
 
 #: src/app/(dashboard)/administration/manage-invoice/page.tsx:208
-#: src/components/layout/sidebar-nav.tsx:425
+#: src/components/layout/sidebar-nav.tsx:442
 msgid "Manage invoice"
 msgstr "管理发票"
 
-#: src/components/layout/sidebar-nav.tsx:439
+#: src/components/layout/sidebar-nav.tsx:456
 msgid "Manage member"
 msgstr "管理成员"
 
@@ -6444,7 +6511,7 @@ msgstr "管理成员"
 msgid "Manage permission"
 msgstr "管理权限"
 
-#: src/components/layout/sidebar-nav.tsx:446
+#: src/components/layout/sidebar-nav.tsx:463
 msgid "Manage permissions"
 msgstr "管理权限"
 
@@ -6470,7 +6537,8 @@ msgstr "市场价格"
 #: src/app/(dashboard)/banking/(Account)/account/page.tsx:389
 #: src/app/(dashboard)/banking/(Account)/related-channels/page.tsx:156
 #: src/app/(dashboard)/banking/(Account)/related-channels/page.tsx:326
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:352
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:374
+#: src/app/(dashboard)/banking/dashboard/page.tsx:155
 #: src/app/(dashboard)/issuing/(card-management)/physical-card-number/page.tsx:44
 #: src/app/(dashboard)/issuing/(card-management)/physical-card-number/page.tsx:245
 #: src/app/(dashboard)/onboarding/(customer)/customer/page.tsx:60
@@ -6488,6 +6556,7 @@ msgstr "主账户ID"
 msgid "Master id is required"
 msgstr "主id是必需的"
 
+#: src/app/(dashboard)/banking/dashboard/page.tsx:166
 #: src/features/banking/account/details-review-modal.tsx:344
 msgid "Master name"
 msgstr "主账户名称"
@@ -6550,7 +6619,7 @@ msgid "Member list"
 msgstr "会员名单"
 
 #: src/components/layout/sidebar-nav.tsx:168
-#: src/components/layout/sidebar-nav.tsx:365
+#: src/components/layout/sidebar-nav.tsx:378
 #: src/features/risk/parameter-group-binding/add-parameters-group-binding-modal.tsx:213
 msgid "Merchant"
 msgstr "商户"
@@ -6570,7 +6639,7 @@ msgstr "商人国家"
 #: src/app/(dashboard)/issuing/(channel)/transaction-reports/page.tsx:174
 #: src/app/(dashboard)/issuing/(new-card-center)/transactions/page.tsx:116
 #: src/features/issuing/new-card-center/transactions/details-transactions-modal.tsx:56
-#: src/features/issuing/reconciliation/supplement/edit-supplement-modal.tsx:459
+#: src/features/issuing/reconciliation/supplement/edit-supplement-modal.tsx:460
 msgid "Merchant name"
 msgstr "商户名称"
 
@@ -6592,7 +6661,7 @@ msgid "message info"
 msgstr "消息信息"
 
 #: src/app/(dashboard)/administration/message-queue/page.tsx:258
-#: src/components/layout/sidebar-nav.tsx:353
+#: src/components/layout/sidebar-nav.tsx:366
 msgid "Message queue"
 msgstr "消息队列"
 
@@ -6624,6 +6693,19 @@ msgstr "元数据"
 msgid "Meta Data"
 msgstr "元数据"
 
+#: src/app/(dashboard)/administration/job-log/page.tsx:93
+#: src/app/(dashboard)/administration/job-log/page.tsx:165
+#: src/app/(dashboard)/administration/job-task/page.tsx:128
+#: src/app/(dashboard)/administration/job-task/page.tsx:300
+#: src/features/administration/job-task/create.tsx:86
+#: src/features/administration/job-task/update.tsx:101
+msgid "Method name"
+msgstr "方法名称"
+
+#: src/features/administration/job-task/create.tsx:19
+msgid "Method name is required"
+msgstr "方法名称是必需的"
+
 #: src/app/(dashboard)/administration/(exchange-rate)/exchange-rate-history/page.tsx:52
 msgid "Mid price"
 msgstr "中间价"
@@ -6631,7 +6713,7 @@ msgstr "中间价"
 #: src/app/(dashboard)/issuing/(new-card-center)/card-order/page.tsx:136
 #: src/app/(dashboard)/issuing/(new-card-center)/card-order/page.tsx:372
 #: src/features/issuing/card-management/card-bin/data-table-toolbar.tsx:254
-#: src/features/issuing/new-card-center/card/data-table-columns.tsx:85
+#: src/features/issuing/new-card-center/card/data-table-columns.tsx:97
 #: src/features/issuing/new-card-center/card/data-table-toolbar.tsx:196
 msgid "Mode"
 msgstr "模式"
@@ -6640,12 +6722,12 @@ msgstr "模式"
 msgid "Mode is required"
 msgstr "模式是必需的"
 
-#: src/features/issuing/issuing-finance/reports/generate-reports-modal.tsx:819
+#: src/features/issuing/issuing-finance/reports/generate-reports-modal.tsx:823
 #: src/features/issuing/statistics/statistics/account-search.tsx:610
 #: src/features/issuing/statistics/statistics/card-search.tsx:592
 #: src/features/onboarding/customer/customer-review/components/kyc-individual-identify.tsx:353
 #: src/features/onboarding/customer/customer-review/components/kyc-individual-identify.tsx:451
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:448
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:496
 #: src/features/onboarding/customer/customer-review/components/kyc-ownership-detail.tsx:562
 #: src/features/onboarding/customer/customer-review/components/kyc-profile.tsx:520
 #: src/features/onboarding/customer/customer-review/components/kyc-profile.tsx:614
@@ -6658,7 +6740,7 @@ msgstr "月份"
 msgid "Monthly limit"
 msgstr "每月限额"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:499
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:512
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:675
 msgid "Monthly revenue/turnover"
 msgstr "月收入/营业额"
@@ -6671,7 +6753,7 @@ msgstr "每月总计"
 msgid "Msg Type"
 msgstr "短消息类型"
 
-#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:85
+#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:98
 msgid "MVV code"
 msgstr "MVV编码"
 
@@ -6701,7 +6783,7 @@ msgstr "姓名"
 msgid "NAME"
 msgstr "姓名"
 
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:305
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:330
 #: src/features/onboarding/customer/customer-review/components/kyc-ownership-detail.tsx:390
 msgid "Name in other language ,eg: Chinese (Optional)"
 msgstr "其他语言的名称，例如：中文（可选）"
@@ -6723,7 +6805,7 @@ msgstr "字段名称"
 msgid "National Id"
 msgstr "国民身份证"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:99
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:101
 msgid "National ID"
 msgstr "国民身份证"
 
@@ -6731,7 +6813,7 @@ msgstr "国民身份证"
 #: src/features/banking/account/related-channels/nium-binding-modal-step4.tsx:612
 #: src/features/banking/account/related-channels/view-nium-binding-modal-step2.tsx:541
 #: src/features/banking/account/related-channels/view-nium-binding-modal-step4.tsx:615
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:327
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:353
 #: src/features/onboarding/customer/customer-review/components/kyc-ownership-detail.tsx:513
 msgid "Nationality"
 msgstr "国籍"
@@ -6765,9 +6847,21 @@ msgstr "下一个"
 msgid "Nick name"
 msgstr "尼克的名字"
 
+#: src/features/issuing/issuing-finance/account/add-global-account.tsx:172
+msgid "Nickname"
+msgstr "昵称"
+
+#: src/features/issuing/issuing-finance/account/add-global-account.tsx:83
+msgid "Nickname cannot be empty or just spaces"
+msgstr "昵称不能为空或只有空格"
+
+#: src/features/issuing/issuing-finance/account/add-global-account.tsx:82
+msgid "Nickname cannot be longer than 150 characters"
+msgstr "昵称不能超过 150 个字符"
+
 #: src/features/banking/account/related-channels/nium-binding-modal.tsx:724
 msgid "Nium Binding"
-msgstr "牛捆绑"
+msgstr "Nium绑定"
 
 #: src/app/(dashboard)/risk/(access)/new-access-point-table/event-storage-configuration.tsx:279
 #: src/features/administration/financial-codes/country-code/create-country-code.tsx:207
@@ -6849,7 +6943,7 @@ msgid "No results."
 msgstr "没有结果。"
 
 #: src/app/(dashboard)/banking/(Payout)/payer/page.tsx:163
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:61
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:81
 #: src/app/(dashboard)/risk/(access)/(rules)/rule/page.tsx:79
 #: src/app/(dashboard)/risk/(access)/(rules)/rule/page.tsx:115
 #: src/app/(dashboard)/risk/(access)/(rules)/rule/page.tsx:151
@@ -6860,7 +6954,7 @@ msgstr "没有结果。"
 #: src/features/administration/channel-product/channel/rate-details-sheet.tsx:31
 #: src/features/administration/channel-product/channel/restrict-details-sheet.tsx:54
 #: src/features/banking/account/ProductConfigurationContent.tsx:75
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:198
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:211
 #: src/features/issuing/new-card-center/card-ledger/info-card-ledger-modal.tsx:66
 msgid "None"
 msgstr "无"
@@ -6876,7 +6970,7 @@ msgstr "没有"
 
 #: src/features/administration/financial-codes/industry-mcc/add-new-mcc-modal.tsx:385
 #: src/features/administration/financial-codes/industry-mcc/edit-industry-mcc-modal.tsx:391
-#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:385
+#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:387
 msgid "Normal"
 msgstr "正常"
 
@@ -6884,8 +6978,8 @@ msgstr "正常"
 msgid "Not allow"
 msgstr "不允许"
 
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:49
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:192
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:69
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:205
 msgid "NOT_NEED_REFUND"
 msgstr "无需资金"
 
@@ -6922,7 +7016,7 @@ msgstr "通知状态"
 msgid "Notification Status"
 msgstr "通知状态"
 
-#: src/components/layout/sidebar-nav.tsx:411
+#: src/components/layout/sidebar-nav.tsx:428
 msgid "Notification templates"
 msgstr "通知模板"
 
@@ -6995,7 +7089,7 @@ msgstr "员工人数？"
 msgid "Number of rules"
 msgstr "规则数量"
 
-#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:406
+#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:439
 msgid "Numbers"
 msgstr "数字"
 
@@ -7194,7 +7288,7 @@ msgstr "操作类型"
 msgid "Operation failed!"
 msgstr "操作失败！"
 
-#: src/components/layout/sidebar-nav.tsx:453
+#: src/components/layout/sidebar-nav.tsx:470
 msgid "Operation log"
 msgstr "操作日志"
 
@@ -7258,8 +7352,8 @@ msgstr "原始交易ID"
 msgid "Original Transaction ID"
 msgstr "原始交易ID"
 
-#: src/features/issuing/reconciliation/supplement/create-supplement-modal.tsx:648
-#: src/features/issuing/reconciliation/supplement/edit-supplement-modal.tsx:634
+#: src/features/issuing/reconciliation/supplement/create-supplement-modal.tsx:649
+#: src/features/issuing/reconciliation/supplement/edit-supplement-modal.tsx:635
 msgid "Original uq transaction Id"
 msgstr "原始uq交易Id"
 
@@ -7267,7 +7361,7 @@ msgstr "原始uq交易Id"
 msgid "Other"
 msgstr "其他"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:589
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:602
 msgid "OTHER"
 msgstr "其他"
 
@@ -7275,7 +7369,7 @@ msgstr "其他"
 msgid "Other account purpose is required"
 msgstr "需要其他帐户用途"
 
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:422
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:444
 msgid "Outward country"
 msgstr "国外国家"
 
@@ -7364,14 +7458,14 @@ msgid "Parameter description"
 msgstr "参数说明"
 
 #: src/app/(dashboard)/risk/(rules)/parameter-group/page.tsx:168
-#: src/components/layout/sidebar-nav.tsx:323
+#: src/components/layout/sidebar-nav.tsx:336
 #: src/features/risk/parameter-group-binding/add-parameters-group-binding-modal.tsx:148
 #: src/features/risk/parameter-group-binding/edit-rule-para-group-modal.tsx:132
 msgid "Parameter group"
 msgstr "参数组"
 
 #: src/app/(dashboard)/risk/(rules)/parameter-group-binding/page.tsx:216
-#: src/components/layout/sidebar-nav.tsx:324
+#: src/components/layout/sidebar-nav.tsx:337
 msgid "Parameter group binding"
 msgstr "参数组绑定"
 
@@ -7436,6 +7530,8 @@ msgstr "参数值必须唯一"
 #: src/app/(dashboard)/administration/operation-log/page.tsx:207
 #: src/features/administration/channel-product/restrict/data-table-columns.tsx:48
 #: src/features/administration/channel-product/route/data-table-columns.tsx:31
+#: src/features/administration/job-task/create.tsx:92
+#: src/features/administration/job-task/update.tsx:105
 #: src/features/administration/operation-log/detail.tsx:59
 #: src/features/administration/operation-log/detail.tsx:62
 msgid "Params"
@@ -7450,15 +7546,13 @@ msgstr "参数详细信息"
 msgid "Parse status"
 msgstr "解析状态"
 
-#: src/app/(dashboard)/banking/(Account)/related-channels/page.tsx:284
-#: src/app/(dashboard)/banking/(Risk-control)/approval-workflow/page.tsx:133
 #: src/features/banking/account/related-channels/related-channel-info-modal.tsx:131
 msgid "Passed"
 msgstr "通过"
 
 #: src/app/(dashboard)/banking/(Payout)/payer/page.tsx:75
 #: src/app/(dashboard)/banking/(Payout)/payer/page.tsx:344
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:93
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:95
 msgid "Passport"
 msgstr "护照"
 
@@ -7490,7 +7584,7 @@ msgstr "付款方式"
 
 #: src/app/(dashboard)/banking/(Payout)/payer/page.tsx:428
 #: src/app/(dashboard)/banking/(Risk-control)/compliance-review/page.tsx:139
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:529
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:542
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:572
 msgid "Payer"
 msgstr "付款人"
@@ -7507,8 +7601,8 @@ msgstr "付款人地址"
 msgid "Payer id"
 msgstr "付款人id"
 
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:279
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:453
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:300
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:466
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:594
 msgid "Payer ID"
 msgstr "付款人ID"
@@ -7518,12 +7612,12 @@ msgid "Payer Info"
 msgstr "付款人信息"
 
 #: src/app/(dashboard)/banking/(Payout)/payer/page.tsx:371
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:285
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:359
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:306
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:381
 #: src/app/(dashboard)/banking/(Risk-control)/compliance-review/page.tsx:275
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:462
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:475
 #: src/features/banking/risk-control/compliance-review/compliance-inform.tsx:141
-#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:208
+#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:239
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:611
 msgid "Payer name"
 msgstr "付款人名称"
@@ -7548,7 +7642,7 @@ msgstr "Payin"
 msgid "Payment currency"
 msgstr "付款货币"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:319
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:332
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:467
 msgid "Payment date"
 msgstr "付款日期"
@@ -7565,12 +7659,13 @@ msgstr "付款水平"
 #: src/components/layout/sidebar-nav.tsx:136
 #: src/features/banking/payout/beneficiary/detailInfo.tsx:163
 #: src/features/banking/payout/paymentmethod/detailModal.tsx:216
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:311
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:324
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:455
+#: src/features/issuing/issuing-finance/account/add-global-account.tsx:226
 msgid "Payment method"
 msgstr "付款方式"
 
-#: src/features/issuing/issuing-finance/account/account-bank-modal.tsx:104
+#: src/features/issuing/issuing-finance/account/account-bank-modal.tsx:105
 #: src/features/issuing/issuing-finance/account/bank-info-modal.tsx:87
 msgid "Payment Method"
 msgstr "付款方式"
@@ -7596,12 +7691,12 @@ msgstr "付款目的"
 msgid "Payment purpose is required"
 msgstr "付款目的为必填项"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:323
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:336
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:473
 msgid "Payment reason"
 msgstr "付款原因"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:327
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:340
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:479
 msgid "Payment reference"
 msgstr "付款标识"
@@ -7610,7 +7705,7 @@ msgstr "付款标识"
 msgid "Payment Reference"
 msgstr "付款标识"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:1205
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:1232
 msgid "Payment Scope will be changed to"
 msgstr "付款范围将更改为"
 
@@ -7618,13 +7713,13 @@ msgstr "付款范围将更改为"
 msgid "Payment Scope will be changed to \"{0}\""
 msgstr "付款范围将更改为“｛0｝”"
 
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:246
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:429
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:267
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:451
 #: src/app/(dashboard)/banking/deposit/page.tsx:89
 #: src/app/(dashboard)/banking/deposit/page.tsx:260
 #: src/features/banking/banking-finance/transaction/transaction-detail-modal.tsx:202
 #: src/features/banking/deposit/deposit-info-modal.tsx:261
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:362
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:375
 #: src/features/banking/risk-control/workflow/workflow-components/deposit-detail.tsx:233
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:538
 #: src/features/issuing/issuing-finance/deposit/deposit-info-modal.tsx:202
@@ -7641,7 +7736,7 @@ msgstr "支付服务将更改为"
 msgid "Payment type"
 msgstr "付款类型"
 
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:599
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:632
 #: src/app/(dashboard)/banking/(Risk-control)/compliance-review/page.tsx:301
 #: src/app/(dashboard)/banking/dashboard/page.tsx:102
 #: src/components/layout/sidebar-nav.tsx:130
@@ -7658,30 +7753,30 @@ msgstr "付款金额"
 msgid "Payout amount limit"
 msgstr "付款金额限额"
 
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:453
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:486
 msgid "Payout date"
 msgstr "付款日期"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:1107
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:1124
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:707
 msgid "Payout documents"
 msgstr "付款文件"
 
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:234
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:290
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:255
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:303
 #: src/features/banking/payout/payout/payoutRefundModal.tsx:132
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:425
 msgid "Payout ID"
 msgstr "付款ID"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:1087
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:1104
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:369
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:384
 msgid "Payout info"
 msgstr "付款信息"
 
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:164
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:483
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:185
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:516
 msgid "Payout status"
 msgstr "付款状态"
 
@@ -7689,14 +7784,11 @@ msgstr "付款状态"
 msgid "PDF file only"
 msgstr "仅限PDF文件"
 
-#: src/app/(dashboard)/banking/(Account)/related-channels/page.tsx:283
 #: src/app/(dashboard)/banking/(Banking-finance)/balances-snapshot/page.tsx:139
-#: src/app/(dashboard)/banking/(Payout)/beneficiary/page.tsx:438
 #: src/app/(dashboard)/banking/(Payout)/payer/page.tsx:121
 #: src/app/(dashboard)/banking/(Payout)/payer/page.tsx:382
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:170
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:220
-#: src/app/(dashboard)/banking/(Risk-control)/approval-workflow/page.tsx:132
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:191
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:241
 #: src/app/(dashboard)/onboarding/(customer)/document/page.tsx:48
 #: src/app/(dashboard)/onboarding/(customer)/document/page.tsx:68
 #: src/features/banking/account/related-channels/related-channel-info-modal.tsx:137
@@ -7743,7 +7835,6 @@ msgid "Permission Type"
 msgstr "权限类型"
 
 #: src/app/(dashboard)/administration/(financial-codes)/dbs-static-va/page.tsx:129
-#: src/app/(dashboard)/banking/(Payout)/beneficiary/page.tsx:397
 #: src/app/(dashboard)/banking/(Payout)/payer/page.tsx:54
 #: src/app/(dashboard)/banking/(Payout)/payer/page.tsx:328
 #: src/features/banking/risk-control/workflow/workflow-components/aml-modal.tsx:524
@@ -7758,7 +7849,7 @@ msgstr "个人"
 msgid "Phone number"
 msgstr "电话号码"
 
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:354
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:402
 #: src/features/onboarding/customer/customer-review/components/kyc-profile.tsx:332
 msgid "Phone number (with country code)"
 msgstr "电话号码（带国家编码）"
@@ -7769,7 +7860,7 @@ msgid "Physical card"
 msgstr "实体卡"
 
 #: src/app/(dashboard)/issuing/(card-management)/physical-card-number/page.tsx:322
-#: src/components/layout/sidebar-nav.tsx:246
+#: src/components/layout/sidebar-nav.tsx:247
 #: src/features/issuing/card-management/physical-card-number/import-card-number-modal.tsx:248
 msgid "Physical card number"
 msgstr "实体卡号"
@@ -7779,6 +7870,15 @@ msgid ""
 "Please check and confirm that this transaction can undergo settlement "
 "reconciliation"
 msgstr "请检查并确认此交易可以进行结算对账"
+
+#: src/features/issuing/issuing-finance/account/add-global-account.tsx:202
+msgid "Please choose country"
+msgstr "请选择国家"
+
+#: src/features/issuing/issuing-finance/account/add-global-account.tsx:85
+#: src/features/issuing/issuing-finance/account/add-global-account.tsx:219
+msgid "Please choose currency"
+msgstr "请选择币种"
 
 #: src/features/issuing/new-card-center/card/update-card-modal.tsx:175
 msgid "Please confirm whether you want to"
@@ -7817,7 +7917,7 @@ msgstr "请输调账户ID"
 
 #: src/features/onboarding/customer/customer-review/components/kyb-business-detail.tsx:200
 #: src/features/onboarding/customer/customer-review/components/kyc-address.tsx:114
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:152
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:171
 msgid "Please enter address"
 msgstr "请输入地址"
 
@@ -7853,7 +7953,7 @@ msgstr "请输入渠道名称"
 
 #: src/features/onboarding/customer/customer-review/components/kyb-business-detail.tsx:201
 #: src/features/onboarding/customer/customer-review/components/kyc-address.tsx:115
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:153
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:172
 #: src/features/onboarding/customer/customer-review/components/kyc-ownership-detail.tsx:126
 msgid "Please enter city"
 msgstr "请输入城市"
@@ -7901,7 +8001,7 @@ msgstr "请输入客户电子邮件"
 msgid "Please enter customer name"
 msgstr "请输入客户名称"
 
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:157
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:176
 #: src/features/onboarding/customer/customer-review/components/kyc-ownership-detail.tsx:133
 #: src/features/onboarding/customer/customer-review/components/kyc-profile.tsx:104
 msgid "Please enter day"
@@ -7935,7 +8035,7 @@ msgstr "请输入字段名称"
 
 #: src/features/banking/risk-control/workflow/workflow-components/aml-modal.tsx:533
 #: src/features/issuing/issuing-finance/deposit/AML-check-modal .tsx:225
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:150
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:169
 #: src/features/onboarding/customer/customer-review/components/kyc-ownership-detail.tsx:123
 msgid "Please enter first name"
 msgstr "请输入名字"
@@ -7955,7 +8055,7 @@ msgstr "请进入行业"
 
 #: src/features/banking/risk-control/workflow/workflow-components/aml-modal.tsx:546
 #: src/features/issuing/issuing-finance/deposit/AML-check-modal .tsx:238
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:151
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:170
 #: src/features/onboarding/customer/customer-review/components/kyc-ownership-detail.tsx:124
 msgid "Please enter last name"
 msgstr "请输入姓氏"
@@ -7979,7 +8079,7 @@ msgstr "请输入mcc编码"
 msgid "Please enter mcc name"
 msgstr "请输入mcc名称"
 
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:158
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:177
 #: src/features/onboarding/customer/customer-review/components/kyc-ownership-detail.tsx:134
 #: src/features/onboarding/customer/customer-review/components/kyc-profile.tsx:105
 msgid "Please enter month"
@@ -7989,7 +8089,11 @@ msgstr "请输入月份"
 #: src/features/risk/accesss-configuration/action/add-new-field-modal.tsx:117
 #: src/features/risk/accesss-configuration/action/edit-field-modal.tsx:134
 msgid "Please enter name"
-msgstr "请输入环节点名称"
+msgstr "请输入名称"
+
+#: src/features/issuing/issuing-finance/account/add-global-account.tsx:81
+msgid "Please enter nickname"
+msgstr "请输入昵称"
 
 #: src/app/(dashboard)/risk/(access)/new-access-point-table/event-storage-configuration.tsx:232
 msgid "Please enter num_field_1"
@@ -7999,7 +8103,7 @@ msgstr "请输入数值字段1"
 msgid "Please enter num_field_2"
 msgstr "请输入数值字段1"
 
-#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:410
+#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:443
 msgid "Please enter number"
 msgstr "请输入号码"
 
@@ -8020,14 +8124,14 @@ msgstr "请输入密码"
 msgid "Please enter payment purpose"
 msgstr "请输入付款目的"
 
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:156
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:175
 #: src/features/onboarding/customer/customer-review/components/kyc-ownership-detail.tsx:128
 msgid "Please enter phone number"
 msgstr "请输入电话号码"
 
 #: src/features/onboarding/customer/customer-review/components/kyb-business-detail.tsx:203
 #: src/features/onboarding/customer/customer-review/components/kyc-address.tsx:117
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:155
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:174
 #: src/features/onboarding/customer/customer-review/components/kyc-ownership-detail.tsx:130
 msgid "Please enter postal code"
 msgstr "请输入邮政编码"
@@ -8106,8 +8210,8 @@ msgstr "请输入速度分钟天数"
 #: src/features/onboarding/customer/customer-review/components/kyb-business-detail.tsx:202
 #: src/features/onboarding/customer/customer-review/components/kyc-address.tsx:102
 #: src/features/onboarding/customer/customer-review/components/kyc-address.tsx:116
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:119
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:154
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:136
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:173
 #: src/features/onboarding/customer/customer-review/components/kyc-ownership-detail.tsx:111
 #: src/features/onboarding/customer/customer-review/components/kyc-ownership-detail.tsx:129
 msgid "Please enter state"
@@ -8191,13 +8295,17 @@ msgstr "请输入转账限额"
 msgid "Please enter wechat code"
 msgstr "请输入微信编码"
 
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:159
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:178
 msgid "Please enter year"
 msgstr "请输入年份"
 
-#: src/features/issuing/issuing-finance/reports/generate-reports-modal.tsx:639
+#: src/features/issuing/issuing-finance/reports/generate-reports-modal.tsx:643
 msgid "Please enter your account ID"
 msgstr "请输入您的帐户ID"
+
+#: src/features/issuing/issuing-finance/account/add-global-account.tsx:182
+msgid "Please enter your account nickname"
+msgstr "请输入你的账户昵称"
 
 #: src/features/issuing/new-card-center/card/freeze-card-modal.tsx:109
 msgid "Please enter your reason"
@@ -8355,7 +8463,7 @@ msgstr "职位为必填项"
 #: src/features/issuing/new-card-center/card-holder/info-card-holder-modal.tsx:163
 #: src/features/onboarding/customer/customer-review/components/kyb-business-detail.tsx:845
 #: src/features/onboarding/customer/customer-review/components/kyc-address.tsx:356
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:649
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:697
 #: src/features/onboarding/customer/customer-review/components/kyc-ownership-detail.tsx:735
 msgid "Postal code"
 msgstr "邮政编码"
@@ -8390,14 +8498,12 @@ msgstr "主键配置"
 msgid "Priority"
 msgstr "优先"
 
-#: src/app/(dashboard)/banking/(Account)/related-channels/page.tsx:277
-#: src/app/(dashboard)/banking/(Account)/related-channels/page.tsx:286
 #: src/features/banking/account/related-channels/related-channel-info-modal.tsx:89
 #: src/features/banking/account/related-channels/related-channel-info-modal.tsx:143
 msgid "Processing"
 msgstr "处理"
 
-#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:144
+#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:157
 msgid "Processing code"
 msgstr "处理编码"
 
@@ -8461,7 +8567,7 @@ msgid "Product status"
 msgstr "产品状态"
 
 #: src/app/(dashboard)/administration/(channel-product)/product-template/page.tsx:41
-#: src/components/layout/sidebar-nav.tsx:381
+#: src/components/layout/sidebar-nav.tsx:394
 #: src/features/banking/account/copy-template-modal.tsx:137
 msgid "Product template"
 msgstr "产品模板"
@@ -8514,7 +8620,7 @@ msgstr "产品类型"
 msgid "Product Type"
 msgstr "产品类型"
 
-#: src/components/layout/sidebar-nav.tsx:377
+#: src/components/layout/sidebar-nav.tsx:390
 #: src/features/administration/dictionary-config/add-dict-modal.tsx:114
 msgid "Products"
 msgstr "产品"
@@ -8597,7 +8703,7 @@ msgid "Profit"
 msgstr "利润"
 
 #: src/app/(dashboard)/banking/(Risk-control)/approval-workflow/page.tsx:83
-#: src/app/(dashboard)/banking/dashboard/page.tsx:198
+#: src/app/(dashboard)/banking/dashboard/page.tsx:220
 msgid "Progress"
 msgstr "进展"
 
@@ -8715,7 +8821,7 @@ msgid "Rate name"
 msgstr "费率名称"
 
 #: src/app/(dashboard)/administration/(channel-product)/rate-scheme/page.tsx:139
-#: src/components/layout/sidebar-nav.tsx:380
+#: src/components/layout/sidebar-nav.tsx:393
 #: src/features/banking/risk-control/workflow/account-components/assign-product.tsx:921
 msgid "Rate scheme"
 msgstr "费率方案"
@@ -8758,7 +8864,7 @@ msgid "Rate scheme same as first row"
 msgstr "费率方案与第一行相同"
 
 #: src/app/(dashboard)/administration/(exchange-rate)/exchange-rate-history/page.tsx:59
-#: src/app/(dashboard)/administration/(exchange-rate)/live-exchange-rate/page.tsx:80
+#: src/app/(dashboard)/administration/(exchange-rate)/live-exchange-rate/page.tsx:92
 msgid "Rate source"
 msgstr "汇率来源"
 
@@ -8799,7 +8905,7 @@ msgstr "价格"
 msgid "Rates and fees cannot be empty at the same time!"
 msgstr "费率和费用不能同时为空！"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:1100
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:1117
 msgid "Re-to channel"
 msgstr "返回渠道"
 
@@ -8837,7 +8943,7 @@ msgstr "原因是必填项"
 msgid "Reason:"
 msgstr "原因："
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:422
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:435
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:422
 msgid "Receipt"
 msgstr "收据"
@@ -8851,37 +8957,37 @@ msgstr "收据"
 msgid "Receiver account number"
 msgstr "收款人账号"
 
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:385
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:407
 #: src/app/(dashboard)/banking/(Risk-control)/compliance-review/page.tsx:146
 msgid "Recipient"
 msgstr "收款人"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:617
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:630
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:812
 msgid "Recipient address"
 msgstr "收款人地址"
 
 #: src/features/banking/payout/beneficiary/detailInfo.tsx:376
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:870
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:883
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:890
 msgid "Recipient bank details"
 msgstr "收款银行详细信息"
 
 #: src/features/banking/payout/beneficiary/detailInfo.tsx:280
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:627
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:640
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:821
 msgid "Recipient country"
 msgstr "收款人国家"
 
 #: src/features/banking/payout/beneficiary/detailInfo.tsx:336
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:682
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:695
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:737
 msgid "Recipient details"
 msgstr "收款人详细信息"
 
 #: src/app/(dashboard)/banking/(Payout)/beneficiary/page.tsx:422
 #: src/features/banking/payout/beneficiary/detailInfo.tsx:167
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:578
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:591
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:763
 msgid "Recipient ID"
 msgstr "收款人ID"
@@ -8892,27 +8998,27 @@ msgstr "收款人信息"
 
 #: src/app/(dashboard)/banking/(Payout)/beneficiary/page.tsx:242
 #: src/app/(dashboard)/banking/(Payout)/beneficiary/page.tsx:412
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:208
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:229
 #: src/app/(dashboard)/banking/(Risk-control)/compliance-review/page.tsx:280
 #: src/features/banking/payout/beneficiary/detailInfo.tsx:171
 #: src/features/banking/payout/beneficiary/detailInfo.tsx:310
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:593
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:606
 #: src/features/banking/risk-control/compliance-review/compliance-inform.tsx:142
-#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:209
+#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:240
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:784
 msgid "Recipient name"
 msgstr "收款人姓名"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:641
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:654
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:839
 msgid "Recipient postal code"
 msgstr "收款人邮政编码"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:391
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:404
 msgid "Recipient remark"
 msgstr "收款人备注"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:634
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:647
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:830
 msgid "Recipient state"
 msgstr "收款人状态"
@@ -8925,7 +9031,7 @@ msgid "Recipient status"
 msgstr "收款人状态"
 
 #: src/features/banking/payout/beneficiary/detailInfo.tsx:269
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:582
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:595
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:770
 msgid "Recipient type"
 msgstr "收款人类型"
@@ -8935,22 +9041,22 @@ msgstr "收款人类型"
 msgid "Recipients"
 msgstr "收款人"
 
-#: src/components/layout/sidebar-nav.tsx:277
+#: src/components/layout/sidebar-nav.tsx:282
 msgid "Reconciliation"
 msgstr "对账"
 
 #: src/app/(dashboard)/issuing/(reconciliation)/reconciliation-batch/page.tsx:231
-#: src/components/layout/sidebar-nav.tsx:282
+#: src/components/layout/sidebar-nav.tsx:287
 msgid "Reconciliation batch"
 msgstr "对账批次"
 
 #: src/app/(dashboard)/issuing/(reconciliation)/reconciliation-discrepancy/page.tsx:755
-#: src/components/layout/sidebar-nav.tsx:284
+#: src/components/layout/sidebar-nav.tsx:291
 msgid "Reconciliation discrepancy"
 msgstr "对账差异"
 
 #: src/app/(dashboard)/issuing/(reconciliation)/reconciliation-records/page.tsx:278
-#: src/components/layout/sidebar-nav.tsx:283
+#: src/components/layout/sidebar-nav.tsx:288
 msgid "Reconciliation records"
 msgstr "对账记录"
 
@@ -8994,7 +9100,7 @@ msgstr "Ref 标识ID"
 #: src/app/(dashboard)/banking/(Banking-finance)/transactions/page.tsx:61
 #: src/app/(dashboard)/banking/(Conversion)/channel/page.tsx:28
 #: src/app/(dashboard)/banking/(Conversion)/merchant/page.tsx:28
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:316
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:338
 #: src/app/(dashboard)/banking/(Risk-control)/approval-workflow/page.tsx:25
 #: src/app/(dashboard)/banking/adjustment/page.tsx:26
 #: src/app/(dashboard)/banking/dashboard/page.tsx:140
@@ -9033,7 +9139,7 @@ msgstr "标识Id"
 #: src/app/(dashboard)/issuing/(issuing-finance)/refund/page.tsx:29
 #: src/app/(dashboard)/issuing/(issuing-finance)/refund/page.tsx:200
 #: src/app/(dashboard)/issuing/(issuing-finance)/reports/page.tsx:36
-#: src/app/(dashboard)/issuing/(issuing-finance)/reports/page.tsx:192
+#: src/app/(dashboard)/issuing/(issuing-finance)/reports/page.tsx:205
 #: src/app/(dashboard)/issuing/(issuing-finance)/transfer/page.tsx:31
 #: src/app/(dashboard)/issuing/(issuing-finance)/transfer/page.tsx:165
 #: src/app/(dashboard)/issuing/(new-card-center)/card-order/page.tsx:44
@@ -9055,10 +9161,10 @@ msgstr "标识Id"
 #: src/features/banking/deposit/deposit-compliance-modal .tsx:117
 #: src/features/banking/deposit/deposit-info-modal.tsx:186
 #: src/features/banking/payout/payout/payoutComplianceModal.tsx:170
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:294
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:307
 #: src/features/banking/refund/refund-info-modal.tsx:69
 #: src/features/banking/risk-control/compliance-review/compliance-inform.tsx:138
-#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:205
+#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:236
 #: src/features/banking/risk-control/workflow/workflow-components/conversion-detail.tsx:382
 #: src/features/banking/risk-control/workflow/workflow-components/deposit-detail.tsx:163
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:431
@@ -9073,7 +9179,7 @@ msgstr "标识Id"
 msgid "Reference ID"
 msgstr "标识ID"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:841
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:854
 msgid "Reference no."
 msgstr "标识号。"
 
@@ -9096,13 +9202,13 @@ msgstr "刷新成功"
 
 #: src/app/(dashboard)/administration/(channel-product)/rate-scheme/page_copy.tsx:281
 #: src/app/(dashboard)/administration/(channel-product)/rate-scheme/page_copy.tsx:302
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:111
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:131
 #: src/app/(dashboard)/banking/(Risk-control)/compliance-review/page.tsx:315
 #: src/app/(dashboard)/banking/dashboard/page.tsx:105
 #: src/app/(dashboard)/banking/refund/page.tsx:262
 #: src/app/(dashboard)/issuing/(issuing-finance)/refund/page.tsx:245
 #: src/components/layout/sidebar-nav.tsx:144
-#: src/components/layout/sidebar-nav.tsx:259
+#: src/components/layout/sidebar-nav.tsx:260
 #: src/features/issuing/new-card-center/card-order/create-refund-modal.tsx:191
 #: src/features/issuing/new-card-center/card-order/data-table-row-actions.tsx:59
 msgid "Refund"
@@ -9156,7 +9262,7 @@ msgstr "退款原因"
 #: src/app/(dashboard)/issuing/(issuing-finance)/refund/page.tsx:230
 #: src/app/(dashboard)/issuing/(new-card-center)/card-order/page.tsx:253
 #: src/app/(dashboard)/issuing/(new-card-center)/card-order/page.tsx:350
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:348
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:361
 #: src/features/banking/refund/refund-info-modal.tsx:156
 #: src/features/banking/risk-control/workflow/workflow-components/refund-detail.tsx:250
 #: src/features/issuing/issuing-finance/refund/info-finance-transactions-modal.tsx:134
@@ -9170,23 +9276,23 @@ msgstr "退款状态"
 msgid "Refund type"
 msgstr "退款类型"
 
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:46
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:174
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:66
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:187
 msgid "REFUND_FAILURE"
 msgstr "退款失败"
 
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:55
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:180
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:75
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:193
 msgid "REFUND_PENDING"
 msgstr "退款中"
 
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:58
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:186
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:78
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:199
 msgid "REFUND_REFUSE"
 msgstr "退款"
 
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:52
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:168
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:72
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:181
 msgid "REFUND_SUCCESS"
 msgstr "退款成功"
 
@@ -9202,6 +9308,7 @@ msgstr "注册时间"
 msgid "Register Time"
 msgstr "注册时间"
 
+#: src/features/banking/account/related-channels/nium-binding-modal.tsx:976
 #: src/features/banking/account/related-channels/view-nium-binding-modal.tsx:971
 msgid "Registered Address"
 msgstr "注册地址"
@@ -9227,14 +9334,13 @@ msgstr "注册日期为必填项"
 msgid "Regular transactions"
 msgstr "常规交易"
 
-#: src/app/(dashboard)/banking/(Risk-control)/approval-workflow/page.tsx:134
 #: src/app/(dashboard)/onboarding/(customer)/document/page.tsx:172
 #: src/features/banking/account/related-channels/related-channel-info-modal.tsx:350
 #: src/features/banking/deposit/approval-modal.tsx:129
 #: src/features/banking/invoice/review-invoice.tsx:362
 #: src/features/banking/payout/payer/uploadStatus.tsx:160
 #: src/features/banking/payout/payer/uploadStatus.tsx:170
-#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:287
+#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:318
 #: src/features/banking/risk-control/workflow/workflow-approve-drawer.tsx:351
 #: src/features/banking/risk-control/workflow/workflow-approve-drawer.tsx:358
 #: src/features/banking/risk-control/workflow/workflow-approve-drawer.tsx:399
@@ -9247,13 +9353,12 @@ msgstr "常规交易"
 msgid "Reject"
 msgstr "拒绝"
 
-#: src/app/(dashboard)/banking/(Account)/related-channels/page.tsx:285
 #: src/app/(dashboard)/onboarding/(customer)/customer/page.tsx:422
 #: src/features/banking/account/related-channels/related-channel-info-modal.tsx:125
 msgid "Rejected"
 msgstr "拒绝"
 
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:228
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:249
 #: src/features/banking/banking-finance/transaction/deepositApprovalModal.tsx:149
 #: src/features/banking/payout/payout/approvalModal.tsx:149
 #: src/features/issuing/issuing-finance/deposit/deposit-info-modal.tsx:42
@@ -9278,6 +9383,7 @@ msgid "remark"
 msgstr "评论"
 
 #: src/app/(dashboard)/administration/email-notify/page.tsx:124
+#: src/app/(dashboard)/administration/job-task/page.tsx:244
 #: src/app/(dashboard)/banking/(Banking-finance)/transactions/page.tsx:178
 #: src/app/(dashboard)/banking/(Payout)/payment-method/page.tsx:178
 #: src/app/(dashboard)/issuing/(channel)/reports-files/page.tsx:157
@@ -9296,6 +9402,8 @@ msgstr "评论"
 #: src/features/administration/channel-product/route/add-route-modal.tsx:197
 #: src/features/administration/channel-product/route/data-table-columns.tsx:38
 #: src/features/administration/channel-product/route/edit-route-modal.tsx:221
+#: src/features/administration/job-task/create.tsx:139
+#: src/features/administration/job-task/update.tsx:182
 #: src/features/banking/account/related-channels/related-channel-info-modal.tsx:66
 #: src/features/banking/conversion/merchant/merchant-info-modal.tsx:787
 #: src/features/banking/conversion/merchant/merchant-info-modal.tsx:842
@@ -9309,7 +9417,7 @@ msgstr "评论"
 #: src/features/banking/payout/payout/payoutComplianceModal.tsx:216
 #: src/features/banking/payout/payout/payoutRefundModal.tsx:289
 #: src/features/banking/risk-control/compliance-review/compliance-inform.tsx:148
-#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:215
+#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:246
 #: src/features/banking/risk-control/workflow/workflow-components/rate-schem-detail.tsx:361
 #: src/features/issuing/new-card-center/card-ledger/data-table-columns.tsx:152
 #: src/features/issuing/new-card-center/card-order/create-refund-modal.tsx:176
@@ -9382,7 +9490,7 @@ msgid "Report File"
 msgstr "报告报表"
 
 #: src/app/(dashboard)/issuing/(channel)/reports-files/page.tsx:258
-#: src/components/layout/sidebar-nav.tsx:270
+#: src/components/layout/sidebar-nav.tsx:271
 msgid "Report files"
 msgstr "报告报表"
 
@@ -9396,7 +9504,7 @@ msgstr "报告状态"
 #: src/app/(dashboard)/issuing/(issuing-finance)/reports/page.tsx:61
 #: src/features/banking/banking-finance/report/report-detail-modal.tsx:60
 #: src/features/issuing/channel/report-files/upload-parse-modal.tsx:180
-#: src/features/issuing/issuing-finance/reports/generate-reports-modal.tsx:652
+#: src/features/issuing/issuing-finance/reports/generate-reports-modal.tsx:656
 msgid "Report type"
 msgstr "报告类型"
 
@@ -9410,9 +9518,9 @@ msgid "Report type is required"
 msgstr "报告类型是必需的"
 
 #: src/app/(dashboard)/banking/(Banking-finance)/reports/page.tsx:231
-#: src/app/(dashboard)/issuing/(issuing-finance)/reports/page.tsx:231
+#: src/app/(dashboard)/issuing/(issuing-finance)/reports/page.tsx:244
 #: src/components/layout/sidebar-nav.tsx:197
-#: src/components/layout/sidebar-nav.tsx:256
+#: src/components/layout/sidebar-nav.tsx:257
 msgid "Reports"
 msgstr "报表"
 
@@ -9434,7 +9542,7 @@ msgstr "通过电子邮件索取文件"
 msgid "Request ID"
 msgstr "请求ID"
 
-#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:120
+#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:133
 msgid "Request message type"
 msgstr "请求消息类型"
 
@@ -9443,7 +9551,7 @@ msgid "Required"
 msgstr "必填"
 
 #: src/features/banking/payout/payer/uploadStatus.tsx:69
-#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:170
+#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:201
 #: src/features/onboarding/document/approveModal.tsx:29
 msgid "Required reasons when you reject!"
 msgstr "拒绝时所需的理由！"
@@ -9457,7 +9565,7 @@ msgstr "Reresh"
 msgid "Reserve"
 msgstr "储备"
 
-#: src/components/search-box/search.tsx:649
+#: src/components/search-box/search.tsx:673
 #: src/features/administration/channel-product/channel/data-table-toolbar.tsx:197
 #: src/features/administration/channel-product/product-template/data-table-toolbar.tsx:113
 #: src/features/administration/channel-product/products/data-table-toolbar.tsx:125
@@ -9471,7 +9579,7 @@ msgstr "储备"
 #: src/features/issuing/issuing-finance/reports/data-table-toolbar.tsx:149
 #: src/features/issuing/new-card-center/card-holder/data-table-toolbar.tsx:210
 #: src/features/issuing/new-card-center/card-ledger/data-table-toolbar.tsx:263
-#: src/features/issuing/new-card-center/card/data-table-toolbar.tsx:260
+#: src/features/issuing/new-card-center/card/data-table-toolbar.tsx:280
 #: src/features/issuing/new-card-center/transactions/data-table-toolbar.tsx:181
 #: src/features/issuing/statistics/statistics/account-search.tsx:661
 #: src/features/issuing/statistics/statistics/card-search.tsx:636
@@ -9484,7 +9592,7 @@ msgid "Reset Password"
 msgstr "重置密码"
 
 #: src/features/issuing/new-card-center/card-holder/info-card-holder-modal.tsx:144
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:484
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:532
 msgid "Residential address"
 msgstr "地址:"
 
@@ -9523,11 +9631,11 @@ msgstr "解决状态"
 msgid "Resolved status is required"
 msgstr "必须填写已解决状态"
 
-#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:132
+#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:145
 msgid "Response code"
 msgstr "响应编码"
 
-#: src/components/layout/sidebar-nav.tsx:378
+#: src/components/layout/sidebar-nav.tsx:391
 #: src/features/administration/channel-product/product-template/add-product-modal-step2-single-form.tsx:771
 #: src/features/administration/channel-product/products/add-product-modal.tsx:436
 #: src/features/administration/channel-product/products/edit-product-modal.tsx:401
@@ -9689,7 +9797,7 @@ msgstr "审核发票"
 #: src/features/banking/banking-finance/transaction/components/ReviewLogs.tsx:47
 #: src/features/banking/conversion/merchant/merchant-info-modal.tsx:1054
 #: src/features/banking/deposit/deposit-info-modal.tsx:387
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:913
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:926
 #: src/features/banking/risk-control/workflow/workflow-components/adjust-detail.tsx:222
 #: src/features/banking/risk-control/workflow/workflow-components/conversion-detail.tsx:692
 #: src/features/banking/risk-control/workflow/workflow-components/deposit-detail.tsx:335
@@ -9715,8 +9823,8 @@ msgstr "审核意见"
 
 #: src/app/(dashboard)/banking/(Account)/related-channels/page.tsx:224
 #: src/app/(dashboard)/banking/(Account)/related-channels/page.tsx:299
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:214
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:460
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:235
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:493
 #: src/app/(dashboard)/banking/(Risk-control)/approval-workflow/page.tsx:146
 #: src/app/(dashboard)/banking/(Risk-control)/compliance-review/page.tsx:251
 #: src/app/(dashboard)/banking/deposit/page.tsx:124
@@ -9734,7 +9842,7 @@ msgstr "审核意见"
 #: src/features/banking/account/related-channels/related-channel-info-modal.tsx:295
 #: src/features/banking/invoice/review-invoice.tsx:153
 #: src/features/banking/invoice/workflow-detail.tsx:93
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:353
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:366
 #: src/features/banking/refund/refund-info-modal.tsx:152
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:520
 #: src/features/banking/risk-control/workflow/workflow-components/refund-detail.tsx:246
@@ -9758,7 +9866,7 @@ msgstr "查看_状态"
 #: src/features/banking/conversion/merchant/merchant-info-modal.tsx:152
 #: src/features/banking/deposit/deposit-info-modal.tsx:51
 #: src/features/banking/invoice/audit-log.tsx:45
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:817
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:830
 #: src/features/banking/risk-control/workflow/workflow-components/adjust-detail.tsx:131
 #: src/features/banking/risk-control/workflow/workflow-components/adjust-detail.tsx:131
 #: src/features/banking/risk-control/workflow/workflow-components/conversion-detail.tsx:336
@@ -9772,7 +9880,7 @@ msgstr "审核时间："
 #: src/features/banking/conversion/merchant/merchant-info-modal.tsx:145
 #: src/features/banking/deposit/deposit-info-modal.tsx:44
 #: src/features/banking/invoice/audit-log.tsx:38
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:810
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:823
 #: src/features/banking/risk-control/workflow/workflow-components/adjust-detail.tsx:130
 #: src/features/banking/risk-control/workflow/workflow-components/adjust-detail.tsx:130
 #: src/features/banking/risk-control/workflow/workflow-components/conversion-detail.tsx:329
@@ -9803,7 +9911,7 @@ msgstr "RFIs"
 msgid "Right"
 msgstr "正确的"
 
-#: src/components/layout/sidebar-nav.tsx:310
+#: src/components/layout/sidebar-nav.tsx:323
 #: src/components/layout/topbar-nav.tsx:56
 msgid "Risk"
 msgstr "风控"
@@ -9845,7 +9953,7 @@ msgstr "风险评级水平"
 msgid "Role"
 msgstr "角色"
 
-#: src/components/layout/sidebar-nav.tsx:376
+#: src/components/layout/sidebar-nav.tsx:389
 #: src/components/layout/topbar-nav.tsx:67
 #: src/features/administration/channel-product/product-template/add-product-modal-step2-single-form.tsx:753
 #: src/features/administration/dictionary-config/add-dict-modal.tsx:113
@@ -9970,7 +10078,7 @@ msgstr "规则组编码是必需的"
 msgid "Rule group filter condition"
 msgstr "规则组筛选条件"
 
-#: src/components/layout/sidebar-nav.tsx:320
+#: src/components/layout/sidebar-nav.tsx:333
 msgid "Rule group list"
 msgstr "规则组列表"
 
@@ -9995,7 +10103,7 @@ msgstr "规则组名称是必需的"
 msgid "Rule information includes"
 msgstr "规则信息"
 
-#: src/components/layout/sidebar-nav.tsx:319
+#: src/components/layout/sidebar-nav.tsx:332
 msgid "Rule list"
 msgstr "规则列表"
 
@@ -10025,13 +10133,13 @@ msgid "Rule number"
 msgstr "规则编号"
 
 #: src/app/(dashboard)/risk/(rules)/rule-parameters/page.tsx:186
-#: src/components/layout/sidebar-nav.tsx:322
+#: src/components/layout/sidebar-nav.tsx:335
 msgid "Rule parameters"
 msgstr "规则参数"
 
 #: src/app/(dashboard)/risk/(access)/new-access-point-table/page.tsx:186
 #: src/app/(dashboard)/risk/(access)/new-access-point-table/rules-configuration.tsx:147
-#: src/components/layout/sidebar-nav.tsx:315
+#: src/components/layout/sidebar-nav.tsx:328
 msgid "Rules configuration"
 msgstr "规则配置"
 
@@ -10225,11 +10333,11 @@ msgstr "选择所有授权交易类型"
 msgid "Select buy currency"
 msgstr "选择购买币种"
 
-#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:296
+#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:298
 msgid "Select card bin"
 msgstr "选择卡箱"
 
-#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:320
+#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:322
 msgid "Select card sub bin"
 msgstr "选择卡片子仓"
 
@@ -10244,8 +10352,8 @@ msgstr "选择渠道类型"
 msgid "Select country"
 msgstr "选择国家"
 
-#: src/features/issuing/reconciliation/supplement/edit-supplement-modal.tsx:570
-#: src/features/issuing/reconciliation/supplement/edit-supplement-modal.tsx:620
+#: src/features/issuing/reconciliation/supplement/edit-supplement-modal.tsx:571
+#: src/features/issuing/reconciliation/supplement/edit-supplement-modal.tsx:621
 msgid "Select currency"
 msgstr "选择货币"
 
@@ -10269,7 +10377,7 @@ msgstr "选择ID"
 msgid "Select language"
 msgstr "选择语言"
 
-#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:472
+#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:505
 msgid "Select month"
 msgstr "选择月份"
 
@@ -10335,7 +10443,7 @@ msgstr "选择类型"
 msgid "Select Week(s)"
 msgstr "选择周"
 
-#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:444
+#: src/features/issuing/card-management/card-number/generate-card-number-modal.tsx:477
 msgid "Select year"
 msgstr "选择年份"
 
@@ -10360,7 +10468,7 @@ msgid "Selected rules"
 msgstr "所选规则"
 
 #: src/app/(dashboard)/administration/(exchange-rate)/exchange-rate-history/page.tsx:44
-#: src/app/(dashboard)/administration/(exchange-rate)/live-exchange-rate/page.tsx:73
+#: src/app/(dashboard)/administration/(exchange-rate)/live-exchange-rate/page.tsx:85
 #: src/app/(dashboard)/banking/(Conversion)/channel/page.tsx:121
 #: src/app/(dashboard)/banking/(Conversion)/merchant/page.tsx:118
 #: src/features/banking/conversion/channel/add-conversion-modal.tsx:301
@@ -10374,16 +10482,16 @@ msgid "Sell"
 msgstr "出售"
 
 #: src/features/banking/conversion/channel/channel-info-modal.tsx:278
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:940
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:1007
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:944
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:1011
 msgid "Sell amount"
 msgstr "卖出金额"
 
 #: src/app/(dashboard)/administration/(exchange-rate)/exchange-rate-history/page.tsx:125
-#: src/app/(dashboard)/administration/(exchange-rate)/live-exchange-rate/page.tsx:139
+#: src/app/(dashboard)/administration/(exchange-rate)/live-exchange-rate/page.tsx:151
 #: src/features/banking/conversion/channel/channel-info-modal.tsx:274
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:936
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:1003
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:940
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:1007
 msgid "Sell currency"
 msgstr "卖出币种"
 
@@ -10502,7 +10610,7 @@ msgstr "结算币种"
 msgid "Settlement cutoff time"
 msgstr "结算截止时间"
 
-#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:60
+#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:73
 msgid "Settlement date"
 msgstr "结算日期"
 
@@ -10519,7 +10627,7 @@ msgid "Settlement Period ratio sum needs to be equal to 100!"
 msgstr "结算期比率总和需要等于100！"
 
 #: src/app/(dashboard)/issuing/(reconciliation)/settlement-reconciliation/page.tsx:549
-#: src/components/layout/sidebar-nav.tsx:285
+#: src/components/layout/sidebar-nav.tsx:296
 msgid "Settlement reconciliation"
 msgstr "结算对账"
 
@@ -10631,11 +10739,11 @@ msgid "signing type is required"
 msgstr "签署类型是必需的"
 
 #: src/features/banking/risk-control/compliance-review/compliance-inform.tsx:119
-#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:48
+#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:79
 msgid "Size"
 msgstr "尺寸"
 
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:190
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:211
 msgid "SMIT Exception"
 msgstr "SMIT异常"
 
@@ -10754,7 +10862,7 @@ msgstr "开始KYC审核"
 #: src/features/issuing/new-card-center/card-holder/info-card-holder-modal.tsx:153
 #: src/features/onboarding/customer/customer-review/components/kyb-business-detail.tsx:795
 #: src/features/onboarding/customer/customer-review/components/kyc-address.tsx:300
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:590
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:638
 #: src/features/onboarding/customer/customer-review/components/kyc-ownership-detail.tsx:688
 #: src/features/risk/accesss-configuration/action/rule-group/add-rules-group-modal.tsx:275
 #: src/features/risk/accesss-configuration/action/rule-group/edit-rules-group-modal.tsx:293
@@ -10775,7 +10883,7 @@ msgstr "地区"
 msgid "Static VA info"
 msgstr "静态VA信息"
 
-#: src/components/layout/sidebar-nav.tsx:291
+#: src/components/layout/sidebar-nav.tsx:304
 msgid "Statistics"
 msgstr "统计"
 
@@ -10808,7 +10916,7 @@ msgstr "地位"
 #: src/app/(dashboard)/administration/(channel-product)/rate-scheme/page_copy.tsx:106
 #: src/app/(dashboard)/administration/(exchange-rate)/exchange-rate-history/page.tsx:92
 #: src/app/(dashboard)/administration/(exchange-rate)/exchange-rate-history/page.tsx:113
-#: src/app/(dashboard)/administration/(exchange-rate)/live-exchange-rate/page.tsx:112
+#: src/app/(dashboard)/administration/(exchange-rate)/live-exchange-rate/page.tsx:124
 #: src/app/(dashboard)/administration/(financial-codes)/country-code/page.tsx:120
 #: src/app/(dashboard)/administration/(financial-codes)/currency-code/page.tsx:96
 #: src/app/(dashboard)/administration/(financial-codes)/currency-code/page.tsx:136
@@ -10817,6 +10925,10 @@ msgstr "地位"
 #: src/app/(dashboard)/administration/(financial-codes)/dbs-static-va/page.tsx:96
 #: src/app/(dashboard)/administration/dictionary-config/page.tsx:127
 #: src/app/(dashboard)/administration/dictionary-config/page.tsx:170
+#: src/app/(dashboard)/administration/job-log/page.tsx:110
+#: src/app/(dashboard)/administration/job-log/page.tsx:170
+#: src/app/(dashboard)/administration/job-task/page.tsx:217
+#: src/app/(dashboard)/administration/job-task/page.tsx:321
 #: src/app/(dashboard)/administration/manage-invoice/page.tsx:101
 #: src/app/(dashboard)/administration/manage-invoice/page.tsx:146
 #: src/app/(dashboard)/administration/manage-memeber/page.tsx:177
@@ -10830,16 +10942,16 @@ msgstr "地位"
 #: src/app/(dashboard)/banking/(Payout)/payment-method/page.tsx:185
 #: src/app/(dashboard)/banking/(Risk-control)/approval-workflow/page.tsx:57
 #: src/app/(dashboard)/banking/adjustment/page.tsx:156
-#: src/app/(dashboard)/banking/dashboard/page.tsx:172
+#: src/app/(dashboard)/banking/dashboard/page.tsx:194
 #: src/app/(dashboard)/banking/transfer/page.tsx:126
 #: src/app/(dashboard)/banking/transfer/page.tsx:183
-#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:164
-#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:226
+#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:180
+#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:242
 #: src/app/(dashboard)/issuing/(card-management)/physical-card-number/page.tsx:150
 #: src/app/(dashboard)/issuing/(card-management)/physical-card-number/page.tsx:271
 #: src/app/(dashboard)/issuing/(issuing-finance)/finance-transactions/page.tsx:159
 #: src/app/(dashboard)/issuing/(issuing-finance)/finance-transactions/page.tsx:206
-#: src/app/(dashboard)/issuing/(issuing-finance)/reports/page.tsx:161
+#: src/app/(dashboard)/issuing/(issuing-finance)/reports/page.tsx:174
 #: src/app/(dashboard)/issuing/(issuing-finance)/transfer/page.tsx:133
 #: src/app/(dashboard)/issuing/(issuing-finance)/transfer/page.tsx:180
 #: src/app/(dashboard)/issuing/(new-card-center)/transactions/page.tsx:185
@@ -10856,6 +10968,8 @@ msgstr "地位"
 #: src/features/administration/dictionary-config/add-dict-modal.tsx:173
 #: src/features/administration/financial-codes/dbs-static-va/detail.tsx:59
 #: src/features/administration/financial-codes/industry-mcc/data-table-columns.tsx:133
+#: src/features/administration/job-task/create.tsx:124
+#: src/features/administration/job-task/update.tsx:144
 #: src/features/administration/manage-invoice/create-manage-invoice.tsx:506
 #: src/features/administration/webhook-events/detail.tsx:51
 #: src/features/administration/workflow-member/adminInfoModal.tsx:58
@@ -10867,8 +10981,8 @@ msgstr "地位"
 #: src/features/banking/deposit/deposit-info-modal.tsx:61
 #: src/features/banking/deposit/deposit-info-modal.tsx:192
 #: src/features/banking/payout/paymentmethod/detailModal.tsx:244
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:298
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:856
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:311
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:869
 #: src/features/banking/risk-control/workflow/account-components/final-review.tsx:464
 #: src/features/banking/risk-control/workflow/account-components/merchant-contract.tsx:31
 #: src/features/banking/risk-control/workflow/account-components/merchant-contract.tsx:31
@@ -10877,7 +10991,7 @@ msgstr "地位"
 #: src/features/banking/risk-control/workflow/workflow-components/deposit-detail.tsx:169
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:437
 #: src/features/issuing/issuing-finance/account/account-balance-modal .tsx:43
-#: src/features/issuing/issuing-finance/account/account-bank-modal.tsx:122
+#: src/features/issuing/issuing-finance/account/account-bank-modal.tsx:123
 #: src/features/issuing/issuing-finance/account/bank-info-modal.tsx:166
 #: src/features/issuing/issuing-finance/deposit/deposit-info-modal.tsx:40
 #: src/features/issuing/issuing-finance/deposit/deposit-info-modal.tsx:229
@@ -10889,7 +11003,7 @@ msgstr "地位"
 #: src/features/issuing/new-card-center/card-ledger/data-table-columns.tsx:177
 #: src/features/issuing/new-card-center/card-ledger/data-table-toolbar.tsx:195
 #: src/features/issuing/new-card-center/card-ledger/info-card-ledger-modal.tsx:179
-#: src/features/issuing/new-card-center/card/data-table-columns.tsx:146
+#: src/features/issuing/new-card-center/card/data-table-columns.tsx:158
 #: src/features/issuing/new-card-center/card/data-table-toolbar.tsx:150
 #: src/features/issuing/new-card-center/card/freeze-card-modal.tsx:96
 #: src/features/issuing/new-card-center/finance-transactions/info-finance-transactions-modal.tsx:126
@@ -10979,7 +11093,7 @@ msgstr "字段5"
 
 #: src/features/onboarding/customer/customer-review/components/kyb-business-detail.tsx:721
 #: src/features/onboarding/customer/customer-review/components/kyc-address.tsx:226
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:516
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:564
 #: src/features/onboarding/customer/customer-review/components/kyc-ownership-detail.tsx:642
 msgid "Street address"
 msgstr "街道地址"
@@ -11068,7 +11182,7 @@ msgstr "提交确认"
 msgid "Submit success!"
 msgstr "提交成功！"
 
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:186
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:207
 msgid "Submitted"
 msgstr "提交"
 
@@ -11124,10 +11238,10 @@ msgstr "成功"
 #: src/features/banking/payout/paymentmethod/detailModal.tsx:115
 #: src/features/banking/payout/payout/approvalModal.tsx:46
 #: src/features/banking/payout/payout/payoutComplianceModal.tsx:116
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:263
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:276
 #: src/features/banking/payout/payout/payoutRefundModal.tsx:80
 #: src/features/banking/payout/payout/updateCompleted.tsx:23
-#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:182
+#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:213
 #: src/features/banking/risk-control/workflow/workflow-components/aml-modal.tsx:616
 #: src/features/banking/risk-control/workflow/workflow-components/channel-transaction.tsx:65
 #: src/features/banking/risk-control/workflow/workflow-components/channel-transaction.tsx:96
@@ -11149,8 +11263,8 @@ msgstr "成功"
 #: src/features/onboarding/customer/customer-review/components/kyc-individual-activity.tsx:145
 #: src/features/onboarding/customer/customer-review/components/kyc-individual-documents.tsx:53
 #: src/features/onboarding/customer/customer-review/components/kyc-individual-identify.tsx:169
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:193
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:213
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:218
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:238
 #: src/features/onboarding/customer/customer-review/components/kyc-main-content.tsx:66
 #: src/features/onboarding/customer/customer-review/components/kyc-ownership-detail.tsx:204
 #: src/features/onboarding/customer/customer-review/components/kyc-profile.tsx:176
@@ -11164,7 +11278,7 @@ msgstr "成功"
 #: src/app/(dashboard)/issuing/(issuing-finance)/deposit/page.tsx:282
 #: src/app/(dashboard)/issuing/(issuing-finance)/finance-transactions/page.tsx:315
 #: src/app/(dashboard)/issuing/(new-card-center)/card-order/page.tsx:481
-#: src/app/(dashboard)/issuing/(new-card-center)/card/page.tsx:207
+#: src/app/(dashboard)/issuing/(new-card-center)/card/page.tsx:219
 #: src/app/(dashboard)/issuing/(reconciliation)/reconciliation-discrepancy/page.tsx:713
 #: src/app/(dashboard)/issuing/(reconciliation)/settlement-reconciliation/page.tsx:507
 #: src/app/(dashboard)/issuing/(reconciliation)/supplement/page.tsx:630
@@ -11182,7 +11296,6 @@ msgstr "成功！"
 msgid "Success！"
 msgstr "成功"
 
-#: src/app/(dashboard)/banking/(Payout)/beneficiary/page.tsx:442
 #: src/app/(dashboard)/banking/(Payout)/payer/page.tsx:109
 #: src/app/(dashboard)/banking/(Payout)/payer/page.tsx:386
 msgid "Successful"
@@ -11197,7 +11310,7 @@ msgid "Sumsub"
 msgstr "Sumsub"
 
 #: src/app/(dashboard)/issuing/(reconciliation)/supplement/page.tsx:672
-#: src/components/layout/sidebar-nav.tsx:286
+#: src/components/layout/sidebar-nav.tsx:299
 msgid "Supplement"
 msgstr "补充资料"
 
@@ -11216,9 +11329,9 @@ msgstr "补充订单"
 msgid "Support short circuit"
 msgstr "最坏匹配"
 
-#: src/app/(dashboard)/banking/(Payout)/beneficiary/page.tsx:482
-msgid "Swift"
-msgstr "Swift"
+#: src/features/issuing/issuing-finance/account/add-global-account.tsx:235
+msgid "Supporting currency"
+msgstr "支持币种"
 
 #: src/features/banking/account/details-review-modal.tsx:485
 #: src/features/banking/risk-control/workflow/account-risk-manage.tsx:205
@@ -11226,7 +11339,7 @@ msgid "Sync data"
 msgstr "同步数据"
 
 #: src/app/(dashboard)/administration/(exchange-rate)/exchange-rate-history/page.tsx:78
-#: src/app/(dashboard)/administration/(exchange-rate)/live-exchange-rate/page.tsx:98
+#: src/app/(dashboard)/administration/(exchange-rate)/live-exchange-rate/page.tsx:110
 #: src/app/(dashboard)/risk/(access)/new-access-point-table/rules-configuration.tsx:101
 #: src/app/(dashboard)/risk/(rules)/rulelist/page.tsx:114
 msgid "Sync time"
@@ -11310,6 +11423,31 @@ msgstr "目标值"
 #: src/features/risk/parameter-group-binding/add-parameters-group-binding-modal.tsx:82
 msgid "Target value is required"
 msgstr "目标值是必需的"
+
+#: src/features/administration/job-task/create.tsx:62
+msgid "Task created successfully"
+msgstr "任务创建成功"
+
+#: src/features/administration/job-task/update.tsx:93
+msgid "Task details"
+msgstr "任务详细信息"
+
+#: src/components/layout/sidebar-nav.tsx:489
+msgid "Task list"
+msgstr "任务列表"
+
+#: src/app/(dashboard)/administration/job-log/page.tsx:198
+#: src/components/layout/sidebar-nav.tsx:492
+msgid "Task log"
+msgstr "任务日志"
+
+#: src/components/layout/sidebar-nav.tsx:484
+msgid "Task manage"
+msgstr "任务管理"
+
+#: src/features/administration/job-task/update.tsx:73
+msgid "Task updated successfully"
+msgstr "任务更新成功"
 
 #: src/features/banking/invoice/create-invoice.tsx:568
 #: src/features/banking/invoice/review-invoice.tsx:164
@@ -11407,7 +11545,7 @@ msgstr ""
 "接入点是风险控制系统对不同业务风险检查的区分，例如\n"
 "对收款、提款、资金等进行风险评估。当业务系统与风险相关联时\n"
 "控制，需要首先配置接入点。接入点配置信息\n"
-"包括：编码、名称、业务事件主键、过滤字段（可用于区分业务数据\n"
+"包括：代码、名称、业务事件主键、过滤字段（可用于区分业务数据\n"
 "更详细地说，请参阅下面的过滤器字段配置）、业务类型（访问业务细分，以及\n"
 "设置相应的业务主键（不是必需的）。"
 
@@ -11427,7 +11565,7 @@ msgid ""
 msgstr ""
 "接入点是风险控制系统在不同业务风险检查之间的区别，例如风险\n"
 "对收入、提款、资金等进行评估。当业务系统连接到风险控制时\n"
-"需要首先配置接入点。接入点配置信息包括：编码、名称、，\n"
+"需要首先配置接入点。接入点配置信息包括：代码、名称、，\n"
 "业务事件主键，过滤字段（可用于更详细地区分业务数据，见下文\n"
 "用于过滤字段配置）、业务类型（访问业务细分，并设置相应\n"
 "业务主键（非必需）。"
@@ -11533,6 +11671,12 @@ msgstr "卖出价格必须是正数"
 msgid "The signing time must be later than push time"
 msgstr "签署时间必须晚于推送时间"
 
+#: src/features/administration/job-task/update.tsx:94
+msgid ""
+"The task cannot be modified in the normal status. You need to change the "
+"status to pause first."
+msgstr "任务在正常状态下无法修改。您需要先将状态更改为暂停。"
+
 #: src/features/banking/account/related-channels/nium-binding-modal-step2.tsx:866
 #: src/features/banking/account/related-channels/nium-binding-modal-step4.tsx:977
 #: src/features/banking/account/related-channels/nium-binding-modal.tsx:1493
@@ -11572,6 +11716,14 @@ msgstr "时间"
 #: src/features/administration/email-notify/create-email-modal.tsx:263
 msgid "Timed dispatch"
 msgstr "定时调度"
+
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:1074
+msgid "Timeline"
+msgstr "时间表"
+
+#: src/app/(dashboard)/administration/job-log/page.tsx:137
+msgid "Times"
+msgstr "时代"
 
 #: src/components/file-upload/channel-bind-file.tsx:136
 #: src/components/file-upload/index.tsx:133
@@ -11695,8 +11847,8 @@ msgid "TRADE SETTLED"
 msgstr "贸易结算"
 
 #: src/app/(dashboard)/issuing/(channel)/transaction-reports/page.tsx:138
-#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:168
-#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:208
+#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:181
+#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:227
 #: src/app/(dashboard)/issuing/(new-card-center)/transactions/page.tsx:127
 #: src/app/(dashboard)/issuing/(reconciliation)/reconciliation-records/page.tsx:138
 #: src/app/(dashboard)/issuing/(reconciliation)/settlement-reconciliation/page.tsx:220
@@ -11704,8 +11856,8 @@ msgstr "贸易结算"
 #: src/features/issuing/new-card-center/card-ledger/data-table-columns.tsx:109
 #: src/features/issuing/new-card-center/card-ledger/info-card-ledger-modal.tsx:156
 #: src/features/issuing/new-card-center/transactions/details-transactions-modal.tsx:106
-#: src/features/issuing/reconciliation/supplement/create-supplement-modal.tsx:550
-#: src/features/issuing/reconciliation/supplement/edit-supplement-modal.tsx:536
+#: src/features/issuing/reconciliation/supplement/create-supplement-modal.tsx:551
+#: src/features/issuing/reconciliation/supplement/edit-supplement-modal.tsx:537
 msgid "Transaction amount"
 msgstr "交易金额"
 
@@ -11729,9 +11881,9 @@ msgstr "交易国家"
 msgid "Transaction countries is required"
 msgstr "交易国家是必填项"
 
-#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:213
-#: src/features/issuing/reconciliation/supplement/create-supplement-modal.tsx:568
-#: src/features/issuing/reconciliation/supplement/edit-supplement-modal.tsx:554
+#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:232
+#: src/features/issuing/reconciliation/supplement/create-supplement-modal.tsx:569
+#: src/features/issuing/reconciliation/supplement/edit-supplement-modal.tsx:555
 msgid "Transaction currency"
 msgstr "交易币种"
 
@@ -11750,8 +11902,6 @@ msgid "Transaction date"
 msgstr "交易日期"
 
 #: src/app/(dashboard)/banking/(Banking-finance)/transactions/page.tsx:361
-#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:53
-#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:187
 #: src/app/(dashboard)/issuing/(reconciliation)/reconciliation-discrepancy/page.tsx:589
 #: src/features/banking/transfer/info-transfer-modal.tsx:215
 #: src/features/issuing/issuing-finance/transfer/info-transfer-modal.tsx:150
@@ -11769,7 +11919,7 @@ msgid "Transaction remark"
 msgstr "交易备注"
 
 #: src/app/(dashboard)/issuing/(channel)/transaction-reports/page.tsx:314
-#: src/components/layout/sidebar-nav.tsx:271
+#: src/components/layout/sidebar-nav.tsx:272
 msgid "Transaction reports"
 msgstr "交易报表"
 
@@ -11790,7 +11940,7 @@ msgstr "交易时间"
 
 #: src/app/(dashboard)/issuing/(channel)/transaction-reports/page.tsx:130
 #: src/app/(dashboard)/issuing/(issuing-finance)/finance-transactions/page.tsx:64
-#: src/app/(dashboard)/issuing/(issuing-finance)/reports/page.tsx:80
+#: src/app/(dashboard)/issuing/(issuing-finance)/reports/page.tsx:93
 #: src/app/(dashboard)/issuing/(new-card-center)/transactions/page.tsx:64
 #: src/app/(dashboard)/issuing/(reconciliation)/reconciliation-records/page.tsx:150
 #: src/app/(dashboard)/issuing/(reconciliation)/settlement-reconciliation/page.tsx:208
@@ -11803,8 +11953,8 @@ msgstr "交易时间"
 #: src/features/issuing/new-card-center/finance-transactions/info-finance-transactions-modal.tsx:67
 #: src/features/issuing/new-card-center/transactions/details-transactions-modal.tsx:93
 #: src/features/issuing/reconciliation/reconciliation-discrepancy/settlement-reconciliation-modal.tsx:264
-#: src/features/issuing/reconciliation/supplement/create-supplement-modal.tsx:519
-#: src/features/issuing/reconciliation/supplement/edit-supplement-modal.tsx:505
+#: src/features/issuing/reconciliation/supplement/create-supplement-modal.tsx:520
+#: src/features/issuing/reconciliation/supplement/edit-supplement-modal.tsx:506
 msgid "Transaction type"
 msgstr "交易类型"
 
@@ -11835,7 +11985,7 @@ msgstr "转录时间"
 #: src/app/(dashboard)/banking/transfer/page.tsx:213
 #: src/app/(dashboard)/issuing/(issuing-finance)/transfer/page.tsx:200
 #: src/components/layout/sidebar-nav.tsx:151
-#: src/components/layout/sidebar-nav.tsx:258
+#: src/components/layout/sidebar-nav.tsx:259
 #: src/features/banking/banking-finance/transaction/TransferInfoModal.tsx:197
 msgid "Transfer"
 msgstr "转账"
@@ -11862,10 +12012,6 @@ msgstr "需要支付转账费"
 msgid "Transfer ID"
 msgstr "转账ID"
 
-#: src/app/(dashboard)/banking/transfer/page.tsx:195
-msgid "Transfer in"
-msgstr "转入"
-
 #: src/features/banking/transfer/info-transfer-modal.tsx:110
 #: src/features/issuing/issuing-finance/transfer/info-transfer-modal.tsx:45
 msgid "Transfer info"
@@ -11880,10 +12026,6 @@ msgstr "转账限额"
 #: src/features/banking/payout/paymentmethod/create-payment-method.tsx:120
 msgid "Transfer limit is required！"
 msgstr "转账限额是必需的"
-
-#: src/app/(dashboard)/banking/transfer/page.tsx:194
-msgid "Transfer out"
-msgstr "转出"
 
 #: src/features/banking/banking-finance/transaction/TransferInfoModal.tsx:144
 #: src/features/banking/transfer/info-transfer-modal.tsx:186
@@ -11942,7 +12084,7 @@ msgstr "两个编码"
 #: src/features/administration/channel-product/route/channel/data-table-columns.tsx:111
 #: src/features/banking/account/related-channels/related-channel-info-modal.tsx:40
 #: src/features/banking/risk-control/compliance-review/compliance-inform.tsx:112
-#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:41
+#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:72
 #: src/features/banking/risk-control/workflow/workflow-components/aml-modal.tsx:343
 #: src/features/issuing/card-management/card-number/data-table-toolbar.tsx:189
 #: src/features/issuing/issuing-finance/account/account-balance-modal .tsx:36
@@ -11997,8 +12139,8 @@ msgstr "单价/费率"
 #: src/app/(dashboard)/banking/(Banking-finance)/transactions/page.tsx:312
 #: src/app/(dashboard)/banking/(Conversion)/merchant/page.tsx:230
 #: src/app/(dashboard)/banking/(Conversion)/merchant/page.tsx:237
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:579
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:589
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:612
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:622
 #: src/app/(dashboard)/banking/deposit/page.tsx:368
 #: src/app/(dashboard)/banking/deposit/page.tsx:378
 #: src/features/banking/deposit/approval-modal.tsx:46
@@ -12058,22 +12200,22 @@ msgstr "未知错误"
 #: src/app/(dashboard)/banking/(Banking-finance)/transactions/page.tsx:317
 #: src/app/(dashboard)/banking/(Conversion)/merchant/page.tsx:222
 #: src/app/(dashboard)/banking/(Conversion)/merchant/page.tsx:242
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:571
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:586
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:604
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:619
 #: src/app/(dashboard)/banking/dashboard/page.tsx:115
 #: src/app/(dashboard)/banking/dashboard/page.tsx:122
 #: src/app/(dashboard)/banking/deposit/page.tsx:360
 #: src/app/(dashboard)/banking/deposit/page.tsx:375
-#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:319
-#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:334
+#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:345
+#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:360
 #: src/app/(dashboard)/issuing/(issuing-finance)/deposit/page.tsx:292
 #: src/app/(dashboard)/issuing/(issuing-finance)/deposit/page.tsx:307
 #: src/app/(dashboard)/issuing/(issuing-finance)/finance-transactions/page.tsx:326
 #: src/app/(dashboard)/issuing/(issuing-finance)/finance-transactions/page.tsx:341
 #: src/app/(dashboard)/issuing/(new-card-center)/card-order/page.tsx:492
 #: src/app/(dashboard)/issuing/(new-card-center)/card-order/page.tsx:507
-#: src/app/(dashboard)/issuing/(new-card-center)/card/page.tsx:218
-#: src/app/(dashboard)/issuing/(new-card-center)/card/page.tsx:233
+#: src/app/(dashboard)/issuing/(new-card-center)/card/page.tsx:230
+#: src/app/(dashboard)/issuing/(new-card-center)/card/page.tsx:245
 #: src/app/(dashboard)/issuing/(new-card-center)/transactions/page.tsx:397
 #: src/app/(dashboard)/issuing/(new-card-center)/transactions/page.tsx:412
 #: src/app/(dashboard)/issuing/(reconciliation)/reconciliation-discrepancy/page.tsx:724
@@ -12122,15 +12264,15 @@ msgstr "未知错误"
 #: src/features/banking/payout/payout/approvalModal.tsx:69
 #: src/features/banking/payout/payout/messageInfoModal.tsx:47
 #: src/features/banking/payout/payout/payoutComplianceModal.tsx:123
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:131
 #: src/features/banking/payout/payout/payoutDetailModal.tsx:144
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:220
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:239
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:268
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:157
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:233
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:252
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:281
 #: src/features/banking/payout/payout/payoutRefundModal.tsx:90
 #: src/features/banking/payout/payout/payoutRefundModal.tsx:103
 #: src/features/banking/payout/payout/updateCompleted.tsx:27
-#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:190
+#: src/features/banking/risk-control/compliance-review/compliance-review-info-modal.tsx:221
 #: src/features/banking/risk-control/compliance-review/upload-file-modal.tsx:64
 #: src/features/banking/risk-control/compliance-review/upload-file-modal.tsx:108
 #: src/features/banking/risk-control/workflow/workflow-components/aml-modal.tsx:66
@@ -12165,9 +12307,9 @@ msgstr "未知错误"
 #: src/features/onboarding/customer/customer-review/components/kyc-individual-identify.tsx:69
 #: src/features/onboarding/customer/customer-review/components/kyc-individual-identify.tsx:173
 #: src/features/onboarding/customer/customer-review/components/kyc-individual-identify.tsx:193
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:101
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:197
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:217
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:116
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:222
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:242
 #: src/features/onboarding/customer/customer-review/components/kyc-main-content.tsx:71
 #: src/features/onboarding/customer/customer-review/components/kyc-ownership-detail.tsx:209
 #: src/features/onboarding/customer/customer-review/components/kyc-ownership-detail.tsx:263
@@ -12220,6 +12362,10 @@ msgstr "未知失败"
 msgid "Unkonw Error"
 msgstr "未知错误"
 
+#: src/app/(dashboard)/banking/(Account)/account/page.tsx:95
+msgid "Unlock"
+msgstr "解锁"
+
 #: src/features/banking/account/unlockModal.tsx:31
 msgid "Unlock account"
 msgstr "解锁帐户"
@@ -12229,7 +12375,7 @@ msgstr "解锁帐户"
 msgid "Unregulated trust type is required"
 msgstr "需要不受监管的信任类型"
 
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:1216
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:1243
 msgid "update"
 msgstr "更新"
 
@@ -12245,6 +12391,7 @@ msgstr "更新"
 #: src/features/administration/exchange-rate/live-exchange-rate/add-exchange-rate.tsx:391
 #: src/features/administration/financial-codes/currency-pair/edit-currency-pair-modal.tsx:321
 #: src/features/administration/financial-codes/industry-mcc/edit-industry-mcc-modal.tsx:407
+#: src/features/administration/job-task/update.tsx:190
 #: src/features/administration/notification-templates/notifyEditModal.tsx:415
 #: src/features/administration/workflow-customize/add-workflow-customize.tsx:356
 #: src/features/administration/workflow-member/editAdmin.tsx:197
@@ -12259,7 +12406,7 @@ msgstr "更新"
 #: src/features/onboarding/customer/customer-review/components/kyc-address.tsx:386
 #: src/features/onboarding/customer/customer-review/components/kyc-individual-activity.tsx:364
 #: src/features/onboarding/customer/customer-review/components/kyc-individual-identify.tsx:524
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:684
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:732
 #: src/features/onboarding/customer/customer-review/components/kyc-profile.tsx:725
 #: src/features/onboarding/profile-config/create-modal.tsx:318
 #: src/features/onboarding/profile-config/create-profile-attach-modal.tsx:230
@@ -12283,7 +12430,7 @@ msgstr "更新渠道代码"
 msgid "Update conversion"
 msgstr "更新汇兑"
 
-#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:257
+#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:273
 msgid "Update date"
 msgstr "更新日期"
 
@@ -12337,6 +12484,7 @@ msgstr "更新模板"
 #: src/app/(dashboard)/administration/(financial-codes)/currency-code/page.tsx:84
 #: src/app/(dashboard)/administration/(financial-codes)/currency-pair/page.tsx:63
 #: src/app/(dashboard)/administration/(financial-codes)/dbs-static-va/page.tsx:84
+#: src/app/(dashboard)/administration/job-task/page.tsx:281
 #: src/app/(dashboard)/administration/manage-invoice/page.tsx:89
 #: src/app/(dashboard)/administration/message-queue/page.tsx:119
 #: src/app/(dashboard)/banking/(Banking-finance)/reports/page.tsx:114
@@ -12344,7 +12492,7 @@ msgstr "更新模板"
 #: src/app/(dashboard)/banking/adjustment/page.tsx:145
 #: src/app/(dashboard)/banking/invoice/page.tsx:169
 #: src/app/(dashboard)/banking/invoice/page.tsx:244
-#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:155
+#: src/app/(dashboard)/issuing/(card-management)/card-number/page.tsx:171
 #: src/app/(dashboard)/issuing/(channel)/transaction-reports/page.tsx:213
 #: src/app/(dashboard)/issuing/(new-card-center)/card-holder/page.tsx:92
 #: src/app/(dashboard)/issuing/(reconciliation)/reconciliation-batch/page.tsx:138
@@ -12366,8 +12514,8 @@ msgstr "更新模板"
 #: src/features/banking/conversion/channel/channel-info-modal.tsx:244
 #: src/features/banking/conversion/merchant/merchant-info-modal.tsx:588
 #: src/features/banking/deposit/deposit-info-modal.tsx:222
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:964
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:1031
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:968
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:1035
 #: src/features/banking/refund/refund-info-modal.tsx:132
 #: src/features/banking/risk-control/workflow/workflow-components/adjust-detail.tsx:209
 #: src/features/banking/risk-control/workflow/workflow-components/conversion-detail.tsx:399
@@ -12378,7 +12526,7 @@ msgstr "更新模板"
 #: src/features/issuing/issuing-finance/refund/info-finance-transactions-modal.tsx:109
 #: src/features/issuing/issuing-finance/transfer/info-transfer-modal.tsx:170
 #: src/features/issuing/new-card-center/card-holder/data-table-columns.tsx:65
-#: src/features/issuing/new-card-center/card/data-table-columns.tsx:136
+#: src/features/issuing/new-card-center/card/data-table-columns.tsx:148
 #: src/features/issuing/new-card-center/finance-transactions/info-finance-transactions-modal.tsx:119
 msgid "Update time"
 msgstr "更新时间"
@@ -12392,7 +12540,7 @@ msgstr "更新时间"
 msgid "UPDATE TIME"
 msgstr "更新时间"
 
-#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:130
+#: src/app/(dashboard)/banking/(Payout)/payout/page.tsx:150
 msgid "Update to completed"
 msgstr "更新已完成"
 
@@ -12509,6 +12657,11 @@ msgstr "UQ交易金额"
 msgid "UQ transaction ID"
 msgstr "UQ交易ID"
 
+#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:60
+#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:206
+msgid "UQ Transaction ID"
+msgstr "UQ交易ID"
+
 #: src/app/(dashboard)/issuing/(reconciliation)/reconciliation-discrepancy/page.tsx:408
 msgid "UQ transaction status"
 msgstr "UQ交易状态"
@@ -12596,14 +12749,14 @@ msgstr "VA类型"
 msgid "Valid types are pdf, jpeg, jpg and png."
 msgstr "有效类型为pdf、jpeg、jpg和png。"
 
-#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:109
-#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:192
+#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:122
+#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:211
 msgid "Validation code"
 msgstr "验证码"
 
 #: src/features/onboarding/customer/customer-review/components/kyb-business-detail.tsx:169
 #: src/features/onboarding/customer/customer-review/components/kyc-address.tsx:107
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:124
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:142
 #: src/features/onboarding/customer/customer-review/components/kyc-ownership-detail.tsx:116
 msgid "Value cannot be empty"
 msgstr "值不能为空"
@@ -12685,12 +12838,17 @@ msgstr "虚拟账号"
 msgid "Virtual card"
 msgstr "虚拟卡"
 
-#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:232
-#: src/components/layout/sidebar-nav.tsx:272
+#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:251
+#: src/components/layout/sidebar-nav.tsx:275
 msgid "VISA settlement reports"
 msgstr "VISA结算报表"
 
-#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:73
+#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:53
+#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:200
+msgid "VISA Transaction ID"
+msgstr "VISA交易ID"
+
+#: src/app/(dashboard)/issuing/(channel)/visa-settlement-reports/page.tsx:86
 msgid "VSS processing date"
 msgstr "VSS处理日期"
 
@@ -12698,8 +12856,8 @@ msgstr "VSS处理日期"
 #: src/features/banking/deposit/deposit-info-modal.tsx:331
 #: src/features/banking/payout/beneficiary/detailInfo.tsx:124
 #: src/features/banking/payout/payer/payoutModal.tsx:49
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:516
-#: src/features/banking/payout/payout/payoutDetailModal.tsx:669
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:529
+#: src/features/banking/payout/payout/payoutDetailModal.tsx:682
 #: src/features/banking/risk-control/workflow/workflow-components/payout-detail.tsx:749
 #: src/features/issuing/issuing-finance/deposit/deposit-info-modal.tsx:248
 msgid "Waiting AML CHECK"
@@ -12719,7 +12877,7 @@ msgstr "等待上传"
 
 #: src/app/(dashboard)/administration/internal/page.tsx:243
 #: src/app/(dashboard)/administration/webhook-events/page.tsx:220
-#: src/components/layout/sidebar-nav.tsx:360
+#: src/components/layout/sidebar-nav.tsx:373
 msgid "Webhook events"
 msgstr "Webhook事件"
 
@@ -12785,6 +12943,10 @@ msgstr "您希望发送或接收的前三种币种是什么？"
 msgid "When can I go to Eason's concert？"
 msgstr "我什么时候可以去听伊森的音乐会"
 
+#: src/features/issuing/issuing-finance/account/add-global-account.tsx:191
+msgid "Where do you want to open your global account?"
+msgstr "您想在哪里开设全球账户？"
+
 #: src/features/risk/accesss-configuration/action/add-new-field-modal.tsx:205
 #: src/features/risk/accesss-configuration/action/edit-field-modal.tsx:219
 msgid "Whether it is the default primary key ?"
@@ -12804,12 +12966,16 @@ msgstr "是否通过电子邮件通知客户"
 msgid "Whether to store ?"
 msgstr "是否要存储？"
 
+#: src/features/issuing/issuing-finance/account/add-global-account.tsx:208
+msgid "Which currency do you want to receive?"
+msgstr "您想接收哪种货币?"
+
 #: src/app/(dashboard)/banking/(Payout)/payer/page.tsx:151
 msgid "Whitelist"
 msgstr "白名单"
 
 #: src/app/(dashboard)/banking/(Risk-control)/approval-workflow/page.tsx:173
-#: src/app/(dashboard)/banking/dashboard/page.tsx:218
+#: src/app/(dashboard)/banking/dashboard/page.tsx:240
 msgid "Workflow"
 msgstr "工作流程"
 
@@ -12822,7 +12988,7 @@ msgid "Workflow Config Id"
 msgstr "工作流配置Id"
 
 #: src/app/(dashboard)/administration/workflow-customize/page.tsx:242
-#: src/components/layout/sidebar-nav.tsx:432
+#: src/components/layout/sidebar-nav.tsx:449
 msgid "Workflow customize"
 msgstr "工作流自定义"
 
@@ -12845,14 +13011,14 @@ msgstr "工作流信息"
 msgid "Wrong"
 msgstr "错了"
 
-#: src/features/issuing/issuing-finance/reports/generate-reports-modal.tsx:791
+#: src/features/issuing/issuing-finance/reports/generate-reports-modal.tsx:795
 #: src/features/issuing/statistics/statistics/account-search.tsx:554
 #: src/features/issuing/statistics/statistics/account-search.tsx:633
 #: src/features/issuing/statistics/statistics/card-search.tsx:536
 #: src/features/issuing/statistics/statistics/card-search.tsx:615
 #: src/features/onboarding/customer/customer-review/components/kyc-individual-identify.tsx:385
 #: src/features/onboarding/customer/customer-review/components/kyc-individual-identify.tsx:479
-#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:466
+#: src/features/onboarding/customer/customer-review/components/kyc-individual-info.tsx:514
 #: src/features/onboarding/customer/customer-review/components/kyc-ownership-detail.tsx:591
 #: src/features/onboarding/customer/customer-review/components/kyc-profile.tsx:547
 #: src/features/onboarding/customer/customer-review/components/kyc-profile.tsx:642
