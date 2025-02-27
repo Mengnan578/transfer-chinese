@@ -2475,5 +2475,16 @@
   "Task updated successfully": "任务更新成功",
   "The task cannot be modified in the normal status. You need to change the status to pause first.": "任务在正常状态下无法修改。您需要先将状态更改为暂停。",
   "Timeline": "时间线",
-  "Times": "时间"
+  "Times": "时间",
+  "Add CC email address": "添加CC电子邮件地址",
+  "Card  number": "卡号",
+  "PayNow proxy": "PayNow代理",
+  "PayNow proxy type": "PayNow代理类型",
+  "Please enter a valid email address, separated by commas": "请输入一个有效的电子邮件地址，用逗号分隔",
+  "Please enter CC email address": "请输入CC电子邮件地址",
+  "Please enter CC email address, separated by commas": "请输入CC电子邮件地址，用逗号分隔",
+  "Please enter CC email address,separated by commas": "请输入CC电子邮件地址，用逗号分隔",
+  "Save and send": "保存并发送",
+  "Search code": "搜索代码",
+  "Send without adding": "发送而不添加"
 }
