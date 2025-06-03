@@ -11,13 +11,16 @@ import crypto from 'crypto';
 dotenv.config();
 
 // 配置
-const INPUT_PO_FILE = `D:/work/uqpay-admin-panel/src/locales/zh/messages.po`; // 输入的 .po 文件路径
-const OUTPUT_PO_FILE = 'D:/work/transfer-chinese/message_translated.po'; // 输出的 .po 文件路径
+// const INPUT_PO_FILE = `D:/work/uqpay-admin-panel/src/locales/zh/messages.po`; // 输入的 .po 文件路径
+// const OUTPUT_PO_FILE = 'D:/work/transfer-chinese/message_translated.po'; // 输出的 .po 文件路径
+const INPUT_PO_FILE = 'D:/work/uqpay-webapp/src/locales/zh/messages.po'
+const OUTPUT_PO_FILE = 'D:/work/transfer-chinese/message_translated.po';
 const SOURCE_LANG = 'en'; // 源语言代码
 const TARGET_LANG = 'zh'; // 目标语言代码（百度翻译使用语言简码，如 'zh' 表示中文）
 const BAIDU_APP_ID = process.env.BAIDU_APP_ID; // 从 .env 文件读取 APP ID
 const BAIDU_SECRET_KEY = process.env.BAIDU_SECRET_KEY; // 从 .env 文件读取密钥
-const CACHE_FILE = path.resolve('D:/work/transfer-chinese/translation_cache.json'); // 缓存文件路径
+// const CACHE_FILE = path.resolve('D:/work/transfer-chinese/translation_cache.json'); // 缓存文件路径
+const CACHE_FILE = path.resolve('D:/work/transfer-chinese/test.json');
 const RETRY_LIMIT = 3; // 重试次数
 const RETRY_DELAY_BASE = 1000; // 基础重试延迟（毫秒）
 const REQUEST_DELAY = 1000; // 每次请求后等待的时间（毫秒）
